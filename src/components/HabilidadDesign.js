@@ -18,8 +18,8 @@ const HabilidadDesign = (props) => {
             <div className="containerh">
                 <div className="container-img">
                     <div className="cont-animacion">
-                        <img className="animar" src={props.imgAnimar} />
-                        <img className="line" src={props.imgAnimado} />
+                        <img className="animar" src={props.imgAnimar} alt="design" />
+                        <img className="line" src={props.imgAnimado}  alt="design" />
                     </div>
                     <img className="img" src={props.img} alt="imageh" />
                 </div>

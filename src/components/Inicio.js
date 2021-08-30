@@ -22,7 +22,7 @@ const Inicio = (props) => {
                 <div className="land-text">
 
                     <div className="land-logo"> 
-                        <img className="logo-img" src={images.logoentero} />
+                        <img className="logo-img" src={images.logoentero} alt="logo"/>
                     </div>
 
                     <div className="land-title"> 
@@ -37,8 +37,8 @@ const Inicio = (props) => {
 
                 <div className="land-img">
                     <div className="vapor-cont">
-                        <img className="vapor1" src={images.vapor} />
-                        <img className="vapor2" src={images.vapor} />
+                        <img className="vapor1" src={images.vapor} alt="vapor"/>
+                        <img className="vapor2" src={images.vapor} alt="vapor"/>
                     </div>
 
                     <img className="cursor" src={images.cursor} alt="cursor" />

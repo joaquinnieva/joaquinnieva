@@ -1,5 +1,5 @@
 .navbar {
-  width: 100%;
+  width: 100vw;
   height: 50px;
   padding: 0px;
   background: #212529;
@@ -14,7 +14,7 @@
   user-select: none;
 }
 .navbar-open {
-  width: 100%;
+  width: 100vw;
   height: 50px;
   padding: 0px;
   background: #212529;
@@ -29,13 +29,12 @@
   user-select: none;
 }
 .navbar-container {
-  margin: auto;
   position: relative;
-  width: 1300px;
-  display: flex;
   opacity: 1;
   list-style: none;
+  width: 100vw;
   height: auto;
+  display: flex;
   justify-content: space-between;
 }
 .menut-open {
@@ -94,8 +93,8 @@
 }
 
 .menu-cont {
-  height: 52px;
-  width: 52px;
+  height: 50px;
+  width: 50px;
   position: relative;
   opacity: 0.9;
   margin: 0px;
@@ -143,5 +142,4 @@
 }
 .fixnav {
   width: 47px;
-  height: 47px;
 }

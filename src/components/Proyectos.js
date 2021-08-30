@@ -9,7 +9,7 @@ const Proyectos = () => (
 
       <div className="cont-proyectoscard">
         <a className="proyectoscard pro1" href="#inicio">
-          <img className="proyectoscard-img" src={images.proyecto1} />
+          <img className="proyectoscard-img" src={images.proyecto1} alt="web" />
           <div className="card-link" href="#inicio">
             <div className="card-hover">
               <p className="card-hover-text">"Portafolio JN"</p>
@@ -21,16 +21,18 @@ const Proyectos = () => (
           className="proyectoscard pro2"
           href="https://joaquinnieva.github.io/ecommerce-proyecto/"
           target="_blank"
+          rel="noreferrer"
         >
-          <img className="proyectoscard-img" src={images.proyecto2} />
+          <img className="proyectoscard-img" src={images.proyecto2} alt="web" />
           <div
             className="card-link"
             href="https://joaquinnieva.github.io/ecommerce-proyecto/"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="card-hover">
               <p className="card-hover-text">"ecommerce"</p>
-              <p className="card-hover-text">En proceso...</p>
+              <p className="card-hover-text">Página Comercial.</p>
             </div>
           </div>
         </a>
@@ -38,12 +40,14 @@ const Proyectos = () => (
           className="proyectoscard pro3"
           href="https://joaquinnieva.github.io/done-proyect/"
           target="_blank"
+          rel="noreferrer"
         >
-          <img className="proyectoscard-img" src={images.proyecto3} />
+          <img className="proyectoscard-img" src={images.proyecto3} alt="web" />
           <div
             className="card-link"
             href="https://joaquinnieva.github.io/done-proyect/"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="card-hover">
               <p className="card-hover-text">"Done"</p>
@@ -55,12 +59,14 @@ const Proyectos = () => (
           className="proyectoscard pro4"
           href="https://joaquinnieva.github.io/techfix/"
           target="_blank"
+          rel="noreferrer"
         >
-          <img className="proyectoscard-img" src={images.proyecto4} />
+          <img className="proyectoscard-img" src={images.proyecto4} alt="web" />
           <div
             className="card-link"
             href="https://joaquinnieva.github.io/techfix/"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="card-hover">
               <p className="card-hover-text">"Tech Fix"</p>

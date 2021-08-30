@@ -7,6 +7,10 @@ import figma from '../components/img/figma.png';
 import react from '../components/img/react.png';
 import redux from '../components/img/redux.png';
 import sass from '../components/img/sass.png';
+import node from '../components/img/node.png';
+import express from '../components/img/express.png';
+import php from '../components/img/php.png';
+import mysql from '../components/img/mysql.png';
 import wordpress from '../components/img/wordpress.png';
 import photoshop from '../components/img/photoshop.png';
 import illustrator from '../components/img/illustrator.png';
@@ -29,8 +33,7 @@ import proyecto2 from '../components/img/proyecto2.png';
 import proyecto3 from '../components/img/proyecto3.png';
 import proyecto4 from '../components/img/proyecto4.png';
 
-export default {
-    
+export default{
     "perfil": perfil,
     "land": land,
     "bootstrap": bootstrap,
@@ -48,6 +51,10 @@ export default {
     "sass": sass,
     "redux": redux,
     "wordpress": wordpress,
+    "php":php,
+    "express":express,
+    "node":node,
+    "mysql":mysql,
     "linkedin": linkedin,
     "gmail": gmail,
     "cursor": cursor,
@@ -61,4 +68,5 @@ export default {
     "proyecto2": proyecto2,
     "proyecto3": proyecto3,
     "proyecto4": proyecto4,
+    
     }

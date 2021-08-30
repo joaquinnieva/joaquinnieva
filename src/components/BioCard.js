@@ -22,21 +22,22 @@ const BioCard = (bio) => {
                 <p className="texto">
                 {bio.text}
                 </p>
+                <a className="cv" href="./img/css.png" download="CV JoaquínNieva"> Descargar CV</a>
             </div>
         </div>
 
         <div className="contact" style={style} id="contacto">
          <h2 className="contactame">CONTACTO</h2>
-         <img className="trama" src={ images.trama } />
+         <img className="trama" src={ images.trama } alt="trama"/>
           <div className="cont-contact">
 
-          <a href="https://www.linkedin.com/in/joaqu%C3%ADnnieva/" target="_blank">
+          <a href="https://www.linkedin.com/in/joaqu%C3%ADnnieva/" target="_blank" rel="noreferrer">
             <div className="linkedin-contact">
                 <img className="img-clinkedin" src={images.linkedin}  alt="linkedin"/>
                  
             </div>
           </a>
-          <a href="mailto:joacoo.nieva@gmail.com" target="_blank">
+          <a href="mailto:joacoo.nieva@gmail.com" target="_blank" rel="noreferrer">
             <div className="mail-contact">
                 <img className="img-cgmail" src={images.gmail} alt="mail"/>
             </div>

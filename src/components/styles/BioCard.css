@@ -12,25 +12,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    display: flex;
     flex-direction: row;
 }
 .img-cont{
+    max-width: 350px;
+    min-width: 250px;
+    
     position: relative;
     user-select: none;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    grid-area: img;
 }
 .img-avatar{
-    width: 350px;
+    position: relative;
+    width: 100%;
 }
 .text-cont{
     height: 250px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -41,7 +42,7 @@
     margin:0px 0px 0px 0px;
     color:#272B2F;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 
     display: flex;
@@ -49,12 +50,34 @@
     align-items: center;
     letter-spacing: 1px;
 }
+.cv{
+    margin-top: 40px;
+    user-select: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 35px 10px 35px;
+    background-color: #272B2F;
+    color: #d3d3d3;
+    border-radius: 40px;
+    border: 1.9px solid #272B2F;
+    list-style: none;
+    opacity: .90;
+    cursor: pointer;
+    transition:.2s ease;
+}
+.cv:hover{
+    background-color: #393d3f;
+    border: 1.9px solid #393d3f;
+    transition:.2s ease;
+}
 .contact{
     position: relative;
     bottom: 0px;
     margin: 0px;
     opacity: 0;
     height: 200px;
+    user-select: none;
     
     display: flex;
     align-items: center;
@@ -83,6 +106,7 @@
     letter-spacing: 2px;
     font-weight: 700;
     grid-column-start: 2;
+    user-select: none;
 }
 .trama{
     position: absolute;
@@ -157,7 +181,7 @@
         position: relative;
         margin:0px 0px 0px 0px;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
     
         display: flex;
         justify-content: center;
@@ -182,10 +206,5 @@
         width: 100%;
         height: auto;
         margin: 30px auto;
-        display: flex;
-        justify-content: center;
-    }
-    .img-avatar{
-        width: 270px;
     }
 }
