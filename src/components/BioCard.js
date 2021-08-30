@@ -1,6 +1,7 @@
 import React from 'react';
 import images from '../components/images.js';
 import './styles/BioCard.css';
+import myPDF from './img/CV-JoaquínNieva.pdf'
 
 const BioCard = (bio) => {
 
@@ -22,7 +23,7 @@ const BioCard = (bio) => {
                 <p className="texto">
                 {bio.text}
                 </p>
-                <a className="cv" href="./img/cv.pdf" download="CV JoaquínNieva.pdf"> Descargar CV</a>
+                <a className="cv" href={myPDF} download="CV-JoaquínNieva.pdf"> Descargar CV</a>
             </div>
         </div>
 
