@@ -22,7 +22,7 @@ const BioCard = (bio) => {
                 <p className="texto">
                 {bio.text}
                 </p>
-                <a className="cv" href="./img/cv.pdf" download="CV JoaquínNieva"> Descargar CV</a>
+                <a className="cv" href="./img/cv.pdf" download="CV JoaquínNieva.pdf"> Descargar CV</a>
             </div>
         </div>
 
