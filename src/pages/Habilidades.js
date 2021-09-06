@@ -27,7 +27,7 @@ const Habilidades = () => (
         <Progreso imagen={images.node}      progreso="60" />
         <Progreso imagen={images.express}   progreso="60" />
         <Progreso imagen={images.mysql}     progreso="70" />
-        <Progreso imagen={images.php}       progreso="65" />
+        <Progreso imagen={images.php}       progreso="60" />
 
       </div> 
     </div>
