@@ -22,11 +22,11 @@ const Habilidades = () => (
         <Progreso imagen={images.bootstrap} progreso="70" />
         <Progreso imagen={images.js}        progreso="85" />
         <Progreso imagen={images.react}     progreso="82" />
-        <Progreso imagen={images.redux}     progreso="77" />
+        <Progreso imagen={images.redux}     progreso="80" />
         <Progreso imagen={images.wordpress} progreso="75" />
         <Progreso imagen={images.node}      progreso="60" />
-        <Progreso imagen={images.express}   progreso="70" />
-        <Progreso imagen={images.mysql}     progreso="80" />
+        <Progreso imagen={images.express}   progreso="60" />
+        <Progreso imagen={images.mysql}     progreso="70" />
         <Progreso imagen={images.php}       progreso="65" />
 
       </div> 
