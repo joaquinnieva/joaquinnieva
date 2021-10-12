@@ -1,0 +1,268 @@
+.inicio{
+    opacity: 0;
+    transition: .3s ease;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.land{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 700px;
+
+    display: flex;
+    flex-direction: row;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "t i";
+}
+.land-text{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: #C9C9C9;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    grid-area: t;
+    margin: auto;
+}
+.land-logo{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    user-select: none;
+}
+.logo-img{
+    position: relative;
+    width: 100%;
+}
+.land-title{
+    margin: 23px 40px;
+    user-select: none;
+}
+.land-button{
+    margin-top: 15px;
+    padding: 10px 35px 10px 35px;
+    background-color: #C4C4C4;
+    color: #272B2F;
+    border-radius: 40px;
+    border: 1.9px solid #C4C4C4;
+    list-style: none;
+    cursor: pointer;
+    transition:.2s ease;
+    user-select: none;
+}
+.land-button:hover{
+    padding: 10px 35px 10px 35px;
+    background-color: #a2a2a2;
+    color: #272B2F;
+    border-radius: 40px;
+    border: 1.9px solid #a2a2a2;
+    list-style: none;
+    cursor: pointer;
+    transition:.2s ease;
+}
+.land-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-area: i;
+    margin: auto;
+    user-select: none;
+}
+.vapor-cont{
+    position: absolute;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    left: 23px;
+    top: 190px;
+}
+.vapor1{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    opacity: .6;
+    animation: vapor1 5s infinite linear;
+}
+.vapor2{
+    position: absolute;
+    opacity: .6;
+    animation: vapor2 5s infinite linear;
+}
+.cursor{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    z-index: 10;
+    top: 55px;
+    animation: cursorr 10s infinite alternate;
+}
+
+.landing{
+    position: relative;
+    width: 400px;
+}
+.scroll{
+    margin: 20px auto 20px auto;
+    position: relative;
+    width: 50px;
+    user-select: none;
+    bottom: 0px;
+
+}
+.scroll-cont{
+    width: 50px;
+    position: relative;
+}
+.scroll-flecha1{
+    position: absolute;
+    width: 12px;
+    bottom: 15px;
+    left: 19px;
+    animation: flecha1 .5s infinite alternate;
+}
+.scroll-flecha2{
+    position: absolute;
+    width: 12px;
+    bottom: 22px;
+    left: 19px;
+    animation: flecha2 .5s infinite alternate;
+}
+
+@keyframes cursorr{
+    0%   {top: 55px; left: 180px;}
+    20%  {top: 70px; left: 220px;}
+    40%  {top: 75px; left: 260px;}
+    50%  {top: 30px; left: 200px;}
+    80%  {top: 45px; left: 150px;}
+    100% {top: 30px; left: 250px;}
+
+}
+@keyframes vapor1{
+    0%   {top: 5px;    opacity: .7;}
+    50%  {top: -4.5px; opacity: .5;}
+    100% {top: -14px;  opacity: 0;}
+
+}@keyframes vapor2{
+    0%   {top: 0px;    opacity: .7;}
+    50%  {top: -3px; opacity: .5;}
+    100% {top: -10px;  opacity: 0;}
+
+}
+@keyframes flecha1{
+    0% {bottom: 24px;}
+    100% {bottom: 22px;}
+
+}
+@keyframes flecha2{
+    0% {bottom: 17px;}
+    100% {bottom: 15px;}
+
+}
+
+@media screen and (max-width:1000px){
+    .land{
+        position: relative;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        height:430px;
+        padding: 200px 0px 0px 0px;
+    
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "i"
+                             "t";
+    }
+    .inicio{
+        opacity: 0;
+        transition: .3s ease;
+    }
+    .land-text{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        color: #C4C4C4;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-align: center;
+        grid-area: t;
+        margin: auto;
+    }
+    .land-title{
+        margin: 20px auto;
+    }
+    .land-logo{
+        position: absolute;
+        top: 50px;
+        width: auto;
+        height: auto;
+        user-select: none;
+    }
+    .logo-img{
+        max-width: 300px;
+        min-width: 100px;
+    }
+    .land-button{
+        margin: 20px auto;
+    }
+    .land-img{
+        width: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        grid-area: i;
+        margin: 30px auto;
+    }
+    .landing{
+        position: relative;
+        width: 150px;
+        height: 143px;
+    }
+    @keyframes cursorr{
+        0%   {top: 15px; left: 80px;}
+        20%  {top: 40px; left: 120px;}
+        40%  {top: 35px; left: 70px;}
+        50%  {top: 30px; left: 110px;}
+        80%  {top: 25px; left: 60px;}
+        100% {top: 15px; left: 80px;}
+    
+    }
+    .vapor-cont{
+        position: absolute;
+        z-index: 10;
+        left: 7px;
+        top: 60px;
+    }
+    .vapor1{
+        height: 20px;
+    }
+    @keyframes vapor1{
+        0%   {top: 5px;    opacity: .7; left: 10px;}
+        50%  {top: -4.5px; opacity: .5; left: 10px;}
+        100% {top: -14px;  opacity: 0;  left: 10px;}
+    
+    }
+
+    .vapor2{
+        height: 20px;
+    }
+}

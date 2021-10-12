@@ -1,0 +1,141 @@
+.contenedorbarras {
+  width: 100vw;
+  height: auto;
+  padding: 70px 0px;
+  position: relative;
+  background: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.barras-barras {
+  width: auto;
+  height: auto;
+  margin: 10px auto;
+  user-select: none;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+}
+.barras-cont {
+  position: relative;
+  width: 120px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ring {
+  transform: rotate(-90deg);
+  width: "120";
+  height: "120";
+}
+.porcentaje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #272b2f;
+  transition: 0.2s ease-in-out;
+}
+.porcentaje:hover {
+  opacity: 1;
+  background-color: #c4c4c4;
+}
+.img- {
+  position: absolute;
+  width: 65px;
+  opacity: 1;
+}
+.info- {
+  display: flex;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  margin: auto 40px;
+  display: flex;
+  flex-direction: column;
+}
+.info-label {
+  border-left: 1px solid rgba(0, 0, 0, 0.18);
+  width: 0px;
+  height: 40px;
+  margin-left: 10px;
+}
+.info-per {
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  bottom: 2px;
+}
+
+.barraSkill {
+  width: 70%;
+  height: 15px;
+  position: relative;
+  border-radius: 20px;
+  margin: auto auto auto 20px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(39, 43, 47, 0.7);
+}
+.barra- {
+  width: 0px;
+  height: 15px;
+  position: relative;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #ff5656;
+  opacity: 0;
+  transition: 0.8s ease 0.3s;
+}
+.ring{
+  width: 120px;
+  height: 120px;
+}
+
+@media (max-width: 700px) {
+  .barras-barras {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+  }
+  .barras-cont {
+    position: relative;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+@media (max-width: 250px) {
+.ring{
+  display: none;
+}
+.contenedorbarras{
+  padding: 10px 0px;
+}
+.barras-barras{
+  padding: 10px;
+  grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-gap: 20px;
+}
+.barras-cont {
+padding: 20px;
+width: 50px;
+}
+}
+

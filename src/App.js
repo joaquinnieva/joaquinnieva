@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+import Inicio from "./pages/Inicio";
+import Habilidades from "./pages/Habilidades";
+import Biografia from "./pages/Biografia";
+import Navbar from "./components/Navbar";
+import Portafolio from "./pages/Portafolio";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Inicio />
+      <Habilidades />
+      <Portafolio />
+      <Biografia />
+    </>
+=======
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +36,7 @@ function App() {
         </a>
       </header>
     </div>
+>>>>>>> 4e3fda5 (Initialize project using Create React App)
   );
 }
 

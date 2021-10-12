@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+
+ReactDOM.render(
+  <>
+    <App />
+  </>,
+  document.getElementById("root")
+);
+=======
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -15,3 +28,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+>>>>>>> 4e3fda5 (Initialize project using Create React App)
