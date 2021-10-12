@@ -60,16 +60,15 @@
   padding: 10px 35px 10px 35px;
   background-color: #272b2f;
   color: #d3d3d3;
-  border-radius: 40px;
-  border: 1.9px solid #272b2f;
+  border-radius: 2px;
+  border: none;
   list-style: none;
   opacity: 0.9;
   cursor: pointer;
   transition: 0.2s ease;
 }
 .cv:hover {
-  background-color: #393d3f;
-  border: 1.9px solid #393d3f;
+  background-color: #1b1e21;
   transition: 0.2s ease;
 }
 .contact {

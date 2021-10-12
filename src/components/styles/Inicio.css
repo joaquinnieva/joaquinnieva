@@ -17,7 +17,7 @@
     flex-direction: row;
 
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, auto);
     grid-template-areas: "t i";
 }
@@ -56,7 +56,7 @@
     padding: 10px 35px 10px 35px;
     background-color: #C4C4C4;
     color: #272B2F;
-    border-radius: 40px;
+    border-radius: 2px;
     border: 1.9px solid #C4C4C4;
     list-style: none;
     cursor: pointer;
@@ -67,13 +67,13 @@
     padding: 10px 35px 10px 35px;
     background-color: #a2a2a2;
     color: #272B2F;
-    border-radius: 40px;
     border: 1.9px solid #a2a2a2;
     list-style: none;
     cursor: pointer;
     transition:.2s ease;
 }
 .land-img{
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -86,8 +86,8 @@
     z-index: 10;
     width: 30px;
     height: 30px;
-    left: 23px;
-    top: 190px;
+    left: 57px;
+    top: 230px;
 }
 .vapor1{
     position: absolute;
@@ -106,13 +106,13 @@
     width: 10px;
     height: 10px;
     z-index: 10;
-    top: 55px;
+    top: 255px;
     animation: cursorr 10s infinite alternate;
 }
 
 .landing{
     position: relative;
-    width: 400px;
+    width: 500px;
 }
 .scroll{
     margin: 20px auto 20px auto;
@@ -142,12 +142,12 @@
 }
 
 @keyframes cursorr{
-    0%   {top: 55px; left: 180px;}
-    20%  {top: 70px; left: 220px;}
-    40%  {top: 75px; left: 260px;}
-    50%  {top: 30px; left: 200px;}
-    80%  {top: 45px; left: 150px;}
-    100% {top: 30px; left: 250px;}
+    0%   {top: 155px; left: 180px;}
+    20%  {top: 185px; left: 200px;}
+    40%  {top: 190px; left: 270px;}
+    50%  {top: 175px; left: 190px;}
+    80%  {top: 195px; left: 200px;}
+    100% {top: 175px; left: 250px;}
 
 }
 @keyframes vapor1{
@@ -234,23 +234,22 @@
     }
     .landing{
         position: relative;
-        width: 150px;
-        height: 143px;
+        width: 230px;
     }
     @keyframes cursorr{
-        0%   {top: 15px; left: 80px;}
-        20%  {top: 40px; left: 120px;}
-        40%  {top: 35px; left: 70px;}
-        50%  {top: 30px; left: 110px;}
-        80%  {top: 25px; left: 60px;}
-        100% {top: 15px; left: 80px;}
+        0%   {top: 75px; left: 100px;}
+        20%  {top: 90px; left: 140px;}
+        40%  {top: 85px; left: 90px;}
+        50%  {top: 80px; left: 130px;}
+        80%  {top: 75px; left: 150px;}
+        100% {top: 95px; left: 100px;}
     
     }
     .vapor-cont{
         position: absolute;
         z-index: 10;
-        left: 7px;
-        top: 60px;
+        left: 23px;
+        top: 95px;
     }
     .vapor1{
         height: 20px;
