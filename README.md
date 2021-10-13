@@ -1,4 +1,4 @@
-<h1 align="center"> Hola 👋, mi nombre es Joaquín NIeva </h1>
+<h1 align="center"> Hola mi nombre es Joaquín Nieva 👋</h1>
 <h3 align="center">Un argentino apasionado por el frontend</h3>
 
 - 📖 Soy una persona que le gusta aprender y saber
