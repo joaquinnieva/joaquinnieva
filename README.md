@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Joaquín NIeva</h1>
-<h3 align="center">A passionate frontend developer from Argentina</h3>
+<h1 align="center"> 👋 Hola, mi nombre es Joaquín NIeva 👋</h1>
+<h3 align="center">Un apasionado por el frontend de Argentina</h3>
 
 - 📝 I regularly write articles on [Soy estudiante autodidacta](Soy estudiante autodidacta)
 
@@ -8,6 +8,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/joaquinnieva" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="joaquinnieva" height="30" width="40" /></a>
+  <a href="https://github.com/joaquinnieva" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github-alt.svg" alt="joaquinnieva" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
