@@ -1,14 +1,14 @@
 <h1 align="center"> 👋 Hola, mi nombre es Joaquín NIeva 👋</h1>
 <h3 align="center">Un apasionado por el frontend de Argentina</h3>
 
-- 📝 Soy una persona que le gusta aprender y saber
-- 📝 Estudiante autodidacta
-- 📝 Desarrollador trainee en crecimiento
-- 📝 Amante de la tecnologia
+- 📖 Soy una persona que le gusta aprender y saber
+- 👓 Estudiante autodidacta
+- ⌨ Desarrollador trainee en crecimiento
+- 🔌 Amante de la tecnologia
 
-<h3 align="left">Contactame</h3>
+<h3 align="left">Contactame </h3>
 <p align="left">
-<a href="https://linkedin.com/in/joaquinnieva" target="blank">- LinkedIn: <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="joaquinnieva" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/joaquinnieva" target="blank">- LinkedIn: <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="joaquinnieva" height="20" width="25" /></a>
 <a href="https://github.com/joaquinnieva" target="blank">- Gmail: 📧</a>
 </p>
 
