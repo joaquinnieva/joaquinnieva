@@ -5,6 +5,7 @@
 - 👓 Estudiante autodidacta
 - ⌨ Desarrollador trainee en crecimiento
 - 🔌 Amante de la tecnologia
+🔍Buscando mi oportunidad en el mercado IT🔎
 
 <h3 align="left">Contactame:</h3>
 <p align="left">
