@@ -8,8 +8,6 @@
 <br>
 🔍Buscando mi oportunidad en el mercado IT🔎
 
----
-
 #
 
 <h3 align="left">Contactame:</h3>
