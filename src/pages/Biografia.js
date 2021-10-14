@@ -22,7 +22,7 @@ const Biografia = () => {
         </div>
         <div className="text-cont">
           <p className="texto">
-            Tengo 19 años y vivo en Córdoba, Argentina. Soy desarrollador web y estudio Licenciatura
+            Tengo 20 años y vivo en Córdoba, Argentina. Soy desarrollador web y estudio Licenciatura
             en Ciencias de la Computación en la Universidad Nacional de Córdoba. Soy un apasionado
             por la tecnología y siempre disfruto aprender lo que más pueda de ella.
           </p>

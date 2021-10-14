@@ -35,8 +35,8 @@ const Habilidades = () => (
       imgAnimado={images.line}
       img={images.designer}
       title="Diseño"
-      text="En el diseño trabajo con estos programas.    
-            Acá el progreso de las barras comprenden mi conocimiento y mi manejo con los mismos."
+      text="En el diseño trabajo con estos programas,
+            el progreso de las barras comprende mi conocimiento y manejo con los mismos."
     />
 
     <div className="contenedorbarras">
