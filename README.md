@@ -9,9 +9,9 @@
 
 #
 
-<h3 align="left">Contactame:</h3>
-<a href="https://linkedin.com/in/joaquinnieva"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Joaquín%20Nieva-blue?style=flat-square&logo=linkedin"></a>
-<a href="mailto:joacoo.nieva@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-joacoo.nieva@gmail.com-blue?style=flat-square&logo=gmail"></a>  
+### Contactame:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Joaquín%20Nieva-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/joaquinnieva)
+[![LinkedIn](https://img.shields.io/badge/Gmail-joacoo.nieva@gmail.com-blue?style=flat-square&logo=gmail)](mailto:joacoo.nieva@gmail.com) 
 
 ### Lenguajes y herramientas:
   ![HTML](https://img.shields.io/badge/-HTML-black?style=flat-square&logo=html5&logoColor=orange)
@@ -31,4 +31,4 @@
   ![Photoshop](https://img.shields.io/badge/-Photoshop-black?style=flat-square&logo=adobephotoshop)
   ![Illustrator](https://img.shields.io/badge/-Illustrator-black?style=flat-square&logo=adobeillustrator)
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Joaquín%20Nieva-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/joaquinnieva)
+  
