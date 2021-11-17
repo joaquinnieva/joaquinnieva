@@ -13,8 +13,7 @@
 <a href="https://linkedin.com/in/joaquinnieva"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Joaquin%20Nieva-blue?style=flat-square&logo=linkedin"></a>
 <a href="mailto:joacoo.nieva@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-joacoo.nieva@gmail.com-blue?style=flat-square&logo=gmail"></a>  
 
-<h3 align="left">Lenguajes y herramientas:</h3>
-<p align="left">
+### Lenguajes y herramientas:
   ![HTML](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=white)
   ![CSS](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)
   <a href="https://getbootstrap.com" target="_blank"> ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg) </a>
@@ -31,4 +30,4 @@
   <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
   <a href="https://www.photoshop.com/en" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a>
   <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> 
-  <a href="https://www.figma.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> </p>
+  <a href="https://www.figma.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
