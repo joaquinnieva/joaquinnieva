@@ -14,8 +14,8 @@
 <a href="mailto:joacoo.nieva@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-joacoo.nieva@gmail.com-blue?style=flat-square&logo=gmail"></a>  
 
 ### Lenguajes y herramientas:
-  ![HTML](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=white)
-  ![CSS](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)
+  ![HTML](https://img.shields.io/badge/-html-black?style=flat-square&logo=html5&logoColor=orange)
+  ![CSS](https://img.shields.io/badge/-css-black?style=flat-square&logo=css3&logoColor=blue)
   ![Bootstrap](https://img.shields.io/badge/-Bootstrap-black?style=flat-square&logo=bootstrap)
   ![Sass](https://img.shields.io/badge/-Sass-black?style=flat-square&logo=sass)
   ![Javascript](https://img.shields.io/badge/-Javascript-black?style=flat-square&logo=javascript)
