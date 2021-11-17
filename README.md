@@ -1,9 +1,8 @@
-<h1 align="center"> Hola mi nombre es Joaquín Nieva 👋</h1>
-<h3 align="center">Un argentino apasionado por el frontend</h3>
+<h1 align="center"> Hola mi nombre es Joaquín Nieva y soy desarrollador frontend 👋 </h1>
 
 - 📖 Soy una persona que le gusta aprender y saber
 - 👓 Estudiante autodidacta
-- ⌨ Desarrollador trainee en crecimiento
+- ⌨ Trainee en crecimiento
 - 🔌 Amante de la tecnologia
 <br>
 🔍Buscando mi oportunidad en el mercado IT🔎
