@@ -1,7 +1,7 @@
 <h1 align="center"> Hola mi nombre es Joaquín Nieva y soy desarrollador frontend 👋 </h1>
 
-- 📖 Soy una persona que le gusta aprender y saber
-- 👓 Estudiante autodidacta
+- 👓 Me gusta mucho saber y aprender
+- 📖 Estudiante autodidacta
 - ⌨ Trainee en crecimiento
 - 🔌 Amante de la tecnologia
 
