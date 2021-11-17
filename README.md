@@ -7,7 +7,6 @@
 
 
 🔍Buscando mi oportunidad en el mercado IT🔎
-
 #
 
 ### Contactame:
