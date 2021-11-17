@@ -11,7 +11,7 @@
 
 <h3 align="left">Contactame:</h3>
 <a href="https://linkedin.com/in/joaquinnieva"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Joaquin%20Nieva-blue?style=flat-square&logo=linkedin"></a>
-<a href="joacoo.nieva@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-joacoo.nieva@gmail.com-blue?style=flat-square&logo=gmail"></a>  
+<a href="mailto:joacoo.nieva@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-joacoo.nieva@gmail.com-blue?style=flat-square&logo=gmail"></a>  
 
 <h3 align="left">Lenguajes y herramientas:</h3>
 <p align="left">
