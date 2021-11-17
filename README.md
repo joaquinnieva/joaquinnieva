@@ -31,4 +31,4 @@
   ![Photoshop](https://img.shields.io/badge/-Photoshop-black?style=flat-square&logo=adobephotoshop)
   ![Illustrator](https://img.shields.io/badge/-Illustrator-black?style=flat-square&logo=adobeillustrator)
   
-  [[LIN](https://img.shields.io/badge/-Figma-black?style=flat-square&logo=figma)](https://img.shields.io/badge/LinkedIn-Joaquín%20Nieva-blue?style=flat-square&logo=linkedin)
+![https://linkedin.com/in/joaquinnieva](https://img.shields.io/badge/-linkedin-black?style=flat-square&logo=linkedin)
