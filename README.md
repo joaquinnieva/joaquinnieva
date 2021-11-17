@@ -4,7 +4,7 @@
 - 👓 Estudiante autodidacta
 - ⌨ Trainee en crecimiento
 - 🔌 Amante de la tecnologia
-\
+
 
 🔍Buscando mi oportunidad en el mercado IT🔎
 
