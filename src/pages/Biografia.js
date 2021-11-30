@@ -1,7 +1,7 @@
 import React from "react";
 import images from "../components/images.js";
 import "../components/styles/Biografia.css";
-import myPDF from "../components/img/CV-JoaquínNieva.pdf";
+import myPDF from "../components/img/JoaquínNievaCV.pdf";
 
 const Biografia = () => {
   const [style, setStyle] = React.useState({});
