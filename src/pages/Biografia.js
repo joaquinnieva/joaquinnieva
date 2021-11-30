@@ -26,7 +26,7 @@ const Biografia = () => {
             en Ciencias de la Computación en la Universidad Nacional de Córdoba. Soy un apasionado
             por la tecnología y siempre disfruto aprender lo que más pueda de ella.
           </p>
-          <a className="cv" href={myPDF} download="CV-JoaquínNieva.pdf">
+          <a className="cv" href={myPDF} download="JoaquínNievaCV.pdf">
             Descargar CV
           </a>
         </div>
