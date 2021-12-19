@@ -78,20 +78,17 @@
   opacity: 0;
   height: 200px;
   user-select: none;
-
-  display: flex;
   align-items: center;
-
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, auto);
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   transition: 0.3s ease-in-out;
   overflow: hidden;
 }
 .cont-contact {
   width: 100%;
   padding: 8px 0px 8px 0px;
-  grid-column-start: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +102,6 @@
   color: #c4c4c4;
   letter-spacing: 2px;
   font-weight: 700;
-  grid-column-start: 2;
   user-select: none;
 }
 .trama {
@@ -119,18 +115,21 @@
   width: 55px;
   height: 55px;
   user-select: none;
-  margin: 0px 10px;
+  margin: 0px 25px;
 }
 .img-clinkedin {
   width: 45px;
   height: 45px;
   user-select: none;
-  margin: 0px 10px;
+  margin: 0px 25px;
 }
-
+.copy {
+  grid-row-start: 3;
+  text-align: center;
+  color: #c4c4c4;
+}
 .text-c {
   width: 300px;
-
   color: #c4c4c4;
   text-align: center;
   font-weight: 700;

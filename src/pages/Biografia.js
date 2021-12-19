@@ -1,7 +1,7 @@
 import React from "react";
 import images from "../components/images.js";
-import "../components/styles/Biografia.css";
 import myPDF from "../components/img/JoaquínNievaCV.pdf";
+import "../components/styles/Biografia.css";
 
 const Biografia = () => {
   const [style, setStyle] = React.useState({});
@@ -32,7 +32,7 @@ const Biografia = () => {
         </div>
       </div>
 
-      <div className="contact" style={style} id="contacto">
+      <footer className="contact" style={style} id="contacto">
         <h2 className="contactame">CONTACTO</h2>
         <img className="trama" src={images.trama} alt="trama" />
         <div className="cont-contact">
@@ -48,7 +48,8 @@ const Biografia = () => {
             <img className="img-cgmail" src={images.github} alt="mail" />
           </a>
         </div>
-      </div>
+        <p className="copy">Copyright © Todos los derechos reservados</p>
+      </footer>
     </>
   );
 };

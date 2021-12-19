@@ -9,7 +9,7 @@ const Modal = (props) => {
         <button className="modal-button" onClick={props.onClick}>
         ╳
         </button>
-        <div>{props.children}</div>
+        <div className="modal-child">{props.children}</div>
       </div>
     </div>
   );
