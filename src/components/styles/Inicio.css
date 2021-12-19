@@ -210,10 +210,10 @@
 @media screen and (max-width: 1000px) {
   .land {
     position: relative;
-    width: auto;
+    width: 100vw;
     height: 90vh;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 0px 0px 0px 0px;
   }
   .inicio {
@@ -221,7 +221,7 @@
     transition: 0.3s ease;
   }
   .land-text {
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -232,14 +232,13 @@
     font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
-    margin: 10px auto auto;
+    margin: 101px auto auto;
   }
   .land-title {
+    width: auto;
     margin: 0px auto 20px;
   }
-  .land-logo {
-    display: none;
-  }
+
   .logo-img {
     max-width: 300px;
     min-width: 100px;
