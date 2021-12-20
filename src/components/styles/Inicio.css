@@ -1,20 +1,18 @@
 .inicio {
   opacity: 0;
   transition: 0.3s ease;
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 70px;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
 }
 .land {
   position: relative;
-  margin: auto;
+  margin: 0px auto;
   width: 1000px;
-  height: 90vh;
-  display: flex;
   flex-direction: row;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -32,7 +30,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
-  margin: auto;
+  margin: 0px auto 50px;
 }
 .land-logo {
   position: relative;
@@ -77,141 +75,179 @@
   margin: auto;
   user-select: none;
 }
-.vapor-cont {
-  position: absolute;
-  z-index: 10;
-  width: 30px;
-  height: 30px;
-  left: 57px;
-  top: 230px;
-}
 .vapor1 {
-  position: absolute;
-  top: 5px;
-  left: 15px;
-  opacity: 0.6;
-  animation: vapor1 5s infinite linear;
+  opacity: 0.5;
+  animation: vapor1 3s infinite linear;
 }
 .vapor2 {
-  position: absolute;
-  opacity: 0.6;
+  opacity: 0.5;
   animation: vapor2 5s infinite linear;
 }
 .cursor {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  z-index: 10;
-  top: 255px;
-  animation: cursorr 10s infinite alternate;
+  transform: translateY(35px) ;
+  animation: cursor 15s infinite alternate;
 }
-
 .landing {
   position: relative;
-  width: 500px;
 }
 .scroll {
-  margin: 20px auto 20px auto;
+  height: 20px;
   position: relative;
-  width: 50px;
   user-select: none;
-  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: flechas 0.5s infinite alternate;
 }
-.scroll-cont {
-  width: 50px;
-  position: relative;
-}
-.scroll-flecha1 {
+.scroll-flecha {
   position: relative;
   width: 12px;
-  bottom: 15px;
-  left: 19px;
-  animation: flecha1 0.5s infinite alternate;
 }
-.scroll-flecha2 {
-  position: absolute;
-  width: 12px;
-  bottom: 22px;
-  left: 19px;
-  animation: flecha2 0.5s infinite alternate;
+.code1 {
+  stroke: #f2f3f4;
+  animation: code1 15s infinite alternate steps(8);
+  stroke-dashoffset: 1;
 }
-
-@keyframes cursorr {
+.code2 {
+  stroke: #ffa49f;
+  animation: code2 15s infinite alternate steps(10);
+  stroke-dashoffset: 50px;
+  stroke-dasharray: 50px;
+}
+.code3 {
+  stroke: #f2f3f4;
+  animation: code3 15s infinite alternate steps(15);
+  stroke-dashoffset: 1;
+}
+@keyframes code1 {
   0% {
-    top: 155px;
-    left: 180px;
+    stroke-dasharray: 14 115;
   }
-  20% {
-    top: 185px;
-    left: 200px;
+  15% {
+    stroke-dasharray: 60 115;
   }
-  40% {
-    top: 190px;
-    left: 270px;
-  }
-  50% {
-    top: 175px;
-    left: 190px;
-  }
-  80% {
-    top: 195px;
-    left: 200px;
+  30% {
+    stroke-dasharray: 144 115;
   }
   100% {
-    top: 175px;
-    left: 250px;
+    stroke-dasharray: 144 115;
+  }
+}
+@keyframes code2 {
+  0% {
+    stroke-dasharray: 55px;
+    stroke: #ffa49f;
+  }
+  30% {
+    stroke-dasharray: 55px;
+    stroke: #ffa49f;
+  }
+  50% {
+    stroke-dasharray: 110px;
+    stroke: #ffa49f;
+  }
+  60% {
+    stroke-dasharray: 60px;
+    stroke: #ffa49f;
+  }
+  61% {
+    stroke: #f2f3f4;
+  }
+  80% {
+    stroke-dasharray: 110px;
+    stroke: #f2f3f4;
+  }
+  100% {
+    stroke-dasharray: 110px;
+    stroke: #f2f3f4;
+  }
+}
+@keyframes code3 {
+  0% {
+    stroke-dasharray: 14 115;
+  }
+  80% {
+    stroke-dasharray: 14 115;
+  }
+  100% {
+    stroke-dasharray: 140 115;
   }
 }
 @keyframes vapor1 {
   0% {
-    top: 5px;
-    opacity: 0.7;
+    transform: translateY(5px);
+    opacity: 0.2;
+  }
+  10% {
+    transform: translateY(3px);
+    opacity: 0.3;
   }
   50% {
-    top: -4.5px;
-    opacity: 0.5;
+    transform: translateY(-5px);
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.2;
   }
   100% {
-    top: -14px;
+    transform: translateY(-10px);
     opacity: 0;
   }
 }
 @keyframes vapor2 {
   0% {
-    top: 0px;
-    opacity: 0.7;
+    transform: translateY(5px);
+    opacity: 0.2;
+  }
+  10% {
+    transform: translateY(3px);
+    opacity: 0.4;
   }
   50% {
-    top: -3px;
-    opacity: 0.5;
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.2;
   }
   100% {
-    top: -10px;
+    transform: translateY(-5px);
     opacity: 0;
   }
 }
-@keyframes flecha1 {
+@keyframes flechas {
   0% {
-    bottom: 24px;
+    padding-bottom: 2px;
   }
   100% {
-    bottom: 22px;
+    padding-bottom: 6px;
   }
 }
-@keyframes flecha2 {
+@keyframes cursor {
   0% {
-    bottom: 17px;
+    transform: translateY(35px);
+  }
+  5% {
+    transform: translateY(40px);
+  }
+  10% {
+    transform: translateY(40px);
+  }
+  20% {
+    transform: translateY(50px);
+  }
+  80% {
+    transform: translateY(50px);
   }
   100% {
-    bottom: 15px;
+    transform: translateY(35px);
   }
 }
-
 @media screen and (max-width: 1000px) {
   .land {
     position: relative;
     width: 100vw;
-    height: 90vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     padding: 0px 0px 0px 0px;
@@ -220,8 +256,15 @@
     opacity: 0;
     transition: 0.3s ease;
   }
+  .land-logo {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    user-select: none;
+  }
   .land-text {
-    width: 100%;
+    width: 80vw;
     height: auto;
     display: flex;
     justify-content: center;
@@ -232,7 +275,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
-    margin: 101px auto auto;
+    margin: 10px auto 30px;
   }
   .land-title {
     width: auto;
@@ -240,8 +283,8 @@
   }
 
   .logo-img {
-    max-width: 300px;
-    min-width: 100px;
+    padding: 0px 20px;
+    width: calc(100% - 40px);
   }
   .land-button {
     margin: 20px auto;
@@ -255,7 +298,7 @@
   }
   .landing {
     position: relative;
-    width: 230px;
+    width: 300px;
   }
   @keyframes cursorr {
     0% {
@@ -282,35 +325,5 @@
       top: 95px;
       left: 100px;
     }
-  }
-  .vapor-cont {
-    position: absolute;
-    z-index: 10;
-    left: 23px;
-    top: 95px;
-  }
-  .vapor1 {
-    height: 20px;
-  }
-  @keyframes vapor1 {
-    0% {
-      top: 5px;
-      opacity: 0.7;
-      left: 10px;
-    }
-    50% {
-      top: -4.5px;
-      opacity: 0.5;
-      left: 10px;
-    }
-    100% {
-      top: -14px;
-      opacity: 0;
-      left: 10px;
-    }
-  }
-
-  .vapor2 {
-    height: 20px;
   }
 }

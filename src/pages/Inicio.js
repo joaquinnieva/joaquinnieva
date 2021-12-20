@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import images from "../components/images.js";
+import Landing from "../components/Landing.js";
 import "../components/styles/Inicio.css";
 
 const Inicio = () => {
@@ -13,7 +14,7 @@ const Inicio = () => {
   }, 100);
   return (
     <div className="inicio" style={style} id="inicio">
-      <div className="land"> 
+      <div className="land">
         <header className="land-text">
           <div className="land-logo">
             <img className="logo-img" src={images.logoentero} alt="logo" />
@@ -23,20 +24,14 @@ const Inicio = () => {
             ¡Conóceme!
           </Link>
         </header>
-
         <div className="land-img">
-          <div className="vapor-cont">
-            <img className="vapor1" src={images.vapor} alt="vapor" />
-            <img className="vapor2" src={images.vapor} alt="vapor" />
-          </div>
-          <img className="cursor" src={images.cursor} alt="cursor" />
-          <img className="landing" src={images.land} alt="landing" />
+          <Landing />
         </div>
       </div>
 
       <div className="scroll">
-        <img className="scroll-flecha1" src={images.flecha} alt="scroll" />
-        <img className="scroll-flecha2" src={images.flecha} alt="scroll" />
+        <img className="scroll-flecha" src={images.flecha} alt="scroll" />
+        <img className="scroll-flecha" src={images.flecha} alt="scroll" />
       </div>
     </div>
   );
