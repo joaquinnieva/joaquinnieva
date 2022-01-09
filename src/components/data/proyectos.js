@@ -6,6 +6,7 @@ const imagen4 = images.proyecto4;
 const imagen5 = images.proyecto5;
 const imagen6 = images.proyecto6;
 const imagen7 = images.proyecto7;
+const imagen8 = images.proyecto8;
 
 let proyectos = [
   {
@@ -20,7 +21,8 @@ let proyectos = [
   {
     id: 2,
     name: 'ecommerce',
-    description: 'Página comercial 🛒 , parte frontend de un e-commerce SPA que tiene slider y carrito de compras. (En desarrollo)',
+    description:
+      'Página comercial 🛒 , parte frontend de un e-commerce SPA que tiene slider y carrito de compras. (En desarrollo)',
     img: imagen2,
     tecnologies: ['react', 'react-router', 'redux', 'css', 'styled-components'],
     link: 'https://ecommerce-proyecto.vercel.app/',
@@ -29,7 +31,8 @@ let proyectos = [
   {
     id: 3,
     name: 'Done',
-    description: 'Done📑 es una app de tareas, un CRUD básico donde manejo el estado global para la creación y eliminación de tareas.',
+    description:
+      'Done📑 es una app de tareas, un CRUD básico donde manejo el estado global para la creación y eliminación de tareas.',
     img: imagen3,
     tecnologies: ['react', 'redux', 'css'],
     link: 'https://joaquinnieva.github.io/done-proyect/',
@@ -38,7 +41,8 @@ let proyectos = [
   {
     id: 4,
     name: 'Tech Fix',
-    description: 'Web informativa 💻 , una página estática para desplegar información de una marca dedicada a servicios.',
+    description:
+      'Web informativa 💻 , una página estática para desplegar información de una marca dedicada a servicios.',
     img: imagen4,
     tecnologies: ['react', 'css'],
     link: 'https://joaquinnieva.github.io/techfix/',
@@ -63,9 +67,9 @@ let proyectos = [
         <a href="https://www.alkemy.org/" target="_blank" rel="noreferrer">
           Alkemy
         </a>
-        &nbsp;🚀, es un proyecto trabajado en equipo empleando Scrum como metodología y Jira para la gestión de tareas, el objetivo del
-        proyecto era crear una app gestionable para admins donde pueden crear noticias y testimonios, además de desplegar información de la
-        organización.
+        &nbsp;🚀, es un proyecto trabajado en equipo empleando Scrum como metodología y Jira para la gestión de tareas,
+        el objetivo del proyecto era crear una app gestionable para admins donde pueden crear noticias y testimonios,
+        además de desplegar información de la organización.
         <br />
         <a
           href="https://assets.alkemy.org/certificates/google-oauth2%7C103446983264709365963/c52cdefa-e4dc-4c63-91dc-2c7f73b2562e.pdf"
@@ -89,6 +93,16 @@ let proyectos = [
     img: imagen7,
     tecnologies: ['react', 'react-router', 'redux-toolkit', 'bootstrap', 'formik', 'firebase'],
     repo: 'https://github.com/joaquinnieva/top-helper',
+  },
+  {
+    id: 8,
+    name: 'Arc',
+    description:
+      'Landing page 💻 , una página estática para desplegar información de una marca dedicada a la arquitectura, desarrollada con el fin de cumplir con el desafio de Frontend Jr para Wantfrom Company.',
+    img: imagen8,
+    tecnologies: ['HTML', 'CSS', 'Bootstrap'],
+    link: 'https://arc-wantfromc.web.app/',
+    repo: 'https://github.com/joaquinnieva/arc',
   },
 ];
 export default proyectos;
