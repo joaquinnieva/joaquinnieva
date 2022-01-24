@@ -1,4 +1,4 @@
-.inicio {
+.container-home {
   opacity: 0;
   transition: 0.3s ease;
   min-height: 100vh;
@@ -11,7 +11,7 @@
 }
 .land {
   position: relative;
-  margin: 0px auto;
+  margin: 30px auto 0px;
   width: 1000px;
   flex-direction: row;
   display: grid;
@@ -84,7 +84,7 @@
   animation: vapor2 5s infinite linear;
 }
 .cursor {
-  transform: translateY(35px) ;
+  transform: translateY(35px);
   animation: cursor 15s infinite alternate;
 }
 .landing {
@@ -241,6 +241,11 @@
   }
   100% {
     transform: translateY(35px);
+  }
+}
+@media screen and (max-height: 600px) {
+  .land {
+    margin: 80px auto 0px;
   }
 }
 @media screen and (max-width: 1000px) {

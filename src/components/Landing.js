@@ -1,15 +1,22 @@
-import * as React from "react";
-import "./styles/Inicio.css";
-
-const SvgComponent = (props) => (
+const Landing = (props) => (
   <svg className="landing" viewBox="0 0 550 300" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <g filter="url(#a)">
-      <path d="M266 263.22c138.071 0 250-26.33 250-58.809s-111.929-58.808-250-58.808-250 26.329-250 58.808 111.929 58.809 250 58.809Z" fill="#43474A" />
+      <path
+        d="M266 263.22c138.071 0 250-26.33 250-58.809s-111.929-58.808-250-58.808-250 26.329-250 58.808 111.929 58.809 250 58.809Z"
+        fill="#43474A"
+      />
     </g>
     <path d="M441.788 183.308H154.389V1.356h287.28v181.952h.119Z" fill="#BBBFC2" />
 
     <path d="M433.005 173.607h-267.82V11.184h267.71v162.423h.11Z" fill="#AEB2B5" />
-    <path d="M442.498 183.664h-287.28V1h287.28v182.664Z" stroke="#444E59" strokeWidth={2} strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" />
+    <path
+      d="M442.498 183.664h-287.28V1h287.28v182.664Z"
+      stroke="#444E59"
+      strokeWidth={2}
+      strokeMiterlimit={10}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
     <path opacity={0.71} d="M426.756 168.394V16.332H171.145v152.062h255.611Z" fill="#FF5656" />
     <path
       d="M426.531 167.674V16.917H171.158v150.757h255.373Z"
@@ -20,7 +27,11 @@ const SvgComponent = (props) => (
       strokeLinejoin="round"
     />
     <path d="M473.813 183.664H123.786l1.764 20.639h346.295l1.968-20.639Z" fill="#fff" />
-    <path opacity={0.8} d="M126.138 205.014h345.413s.839-4.982 2.025-11.743H124.023a1278.077 1278.077 0 0 0 2.115 11.743Z" fill="#BBBFC2" />
+    <path
+      opacity={0.8}
+      d="M126.138 205.014h345.413s.839-4.982 2.025-11.743H124.023a1278.077 1278.077 0 0 0 2.115 11.743Z"
+      fill="#BBBFC2"
+    />
     <path
       d="M473.813 183.664H123.786l2.058 20.639h346.001l1.968-20.639Z"
       stroke="#444E59"
@@ -108,7 +119,15 @@ const SvgComponent = (props) => (
       strokeLinejoin="round"
     />
     <defs>
-      <filter id="a" x={0} y={138.603} width={532} height={149.617} filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+      <filter
+        id="a"
+        x={0}
+        y={138.603}
+        width={532}
+        height={149.617}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
         <feFlood floodOpacity={0} result="BackgroundImageFix" />
         <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
         <feOffset dy={9} />
@@ -122,4 +141,4 @@ const SvgComponent = (props) => (
   </svg>
 );
 
-export default SvgComponent;
+export default Landing;

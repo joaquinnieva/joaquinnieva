@@ -1,0 +1,145 @@
+.container-skill {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px 80px 0px;
+  overflow: hidden;
+
+  opacity: 0;
+  transition: 0.1s ease;
+}
+
+/* svg animation  */
+.coder {
+  animation: code 3s infinite alternate steps(11);
+}
+@keyframes code {
+  0% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(112px);
+  }
+}
+.designer-cursor {
+  animation: designCursor 3s infinite alternate;
+}
+@keyframes designCursor {
+  0% {
+    transform: translate(0px);
+  }
+  60% {
+    transform: translate(105px, -80px);
+  }
+  100% {
+    transform: translate(105px, -80px);
+  }
+}
+.designer-line {
+  animation: designLine 3s infinite alternate steps(2);
+}
+@keyframes designLine {
+  0% {
+    stroke-width: 0px;
+  }
+  100% {
+    stroke-width: 2px;
+  }
+}
+/* svg animation  */
+
+.skill {
+  width: 800px;
+  position: relative;
+  margin: 30px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: 'img text';
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  grid-area: img;
+}
+.skill-img {
+  width: 90%;
+  margin: 0px auto 0px 0px;
+}
+.container-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  grid-area: text;
+}
+.skill-text {
+  color: #c4c4c4;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.skill-title {
+  color: #c4c4c4;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1000px) {
+  .skill {
+    width: 300px;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      'img'
+      'text';
+  }
+  .container-skill {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+
+    opacity: 0;
+    transition: 0.1s ease;
+  }
+  .skill-img {
+    width: 90%;
+    height: auto;
+    margin: 0px auto 0px auto;
+  }
+  .skill-text {
+    color: #c4c4c4;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 13px;
+  }
+  .skill-title {
+    color: #c4c4c4;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+}

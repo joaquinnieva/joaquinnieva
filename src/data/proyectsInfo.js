@@ -1,19 +1,19 @@
-import images from '../images';
-const imagen1 = images.proyecto1;
-const imagen2 = images.proyecto2;
-const imagen3 = images.proyecto3;
-const imagen4 = images.proyecto4;
-const imagen5 = images.proyecto5;
-const imagen6 = images.proyecto6;
-const imagen7 = images.proyecto7;
-const imagen8 = images.proyecto8;
+import images from './images';
+const image1 = images.proyecto1;
+const image2 = images.proyecto2;
+const image3 = images.proyecto3;
+const image4 = images.proyecto4;
+const image5 = images.proyecto5;
+const image6 = images.proyecto6;
+const image7 = images.proyecto7;
+const image8 = images.proyecto8;
 
-let proyectos = [
+let proyects = [
   {
     id: 1,
     name: 'Portafolio',
     description: 'Es este mismo proyecto 👜 , donde puedo recopilar información sobre mí y mostrar lo que hago.',
-    img: imagen1,
+    img: image1,
     tecnologies: ['react', 'css'],
     link: 'https://joaquinnieva.github.io/joaquinnieva/',
     repo: 'https://github.com/joaquinnieva/joaquinnieva',
@@ -23,7 +23,7 @@ let proyectos = [
     name: 'ecommerce',
     description:
       'Página comercial 🛒 , parte frontend de un e-commerce SPA que tiene slider y carrito de compras. (En desarrollo)',
-    img: imagen2,
+    img: image2,
     tecnologies: ['react', 'react-router', 'redux', 'css', 'styled-components'],
     link: 'https://ecommerce-proyecto.vercel.app/',
     repo: 'https://github.com/joaquinnieva/ecommerce-proyecto',
@@ -33,7 +33,7 @@ let proyectos = [
     name: 'Done',
     description:
       'Done📑 es una app de tareas, un CRUD básico donde manejo el estado global para la creación y eliminación de tareas.',
-    img: imagen3,
+    img: image3,
     tecnologies: ['react', 'redux', 'css'],
     link: 'https://joaquinnieva.github.io/done-proyect/',
     repo: 'https://github.com/joaquinnieva/done-proyect',
@@ -43,7 +43,7 @@ let proyectos = [
     name: 'Tech Fix',
     description:
       'Web informativa 💻 , una página estática para desplegar información de una marca dedicada a servicios.',
-    img: imagen4,
+    img: image4,
     tecnologies: ['react', 'css'],
     link: 'https://joaquinnieva.github.io/techfix/',
     repo: 'https://github.com/joaquinnieva/techfix',
@@ -53,7 +53,7 @@ let proyectos = [
     name: 'Hiro',
     description:
       'SPA de heroes 🐱‍🏍. Utilizo una API externa para poder llamar a los heroes, tiene un login para poder ingresar, y se puede armar un equipo de 6, validando que 3 sean buenos y 3 sean malos.     (solo inicia con datos puestos)',
-    img: imagen5,
+    img: image5,
     tecnologies: ['react', 'react-router', 'redux', 'bootstrap', 'formik', 'axios'],
     link: 'https://hiro-app-joaquinnieva.vercel.app/',
     repo: 'https://github.com/joaquinnieva/hiro-app',
@@ -81,7 +81,7 @@ let proyectos = [
         .
       </p>
     ),
-    img: imagen6,
+    img: image6,
     tecnologies: ['react', 'react-router', 'redux-saga', 'bootstrap', 'formik', 'axios'],
     repo: 'https://github.com/alkemyTech/OT-93-Server',
   },
@@ -90,7 +90,7 @@ let proyectos = [
     name: 'Top Helper',
     description:
       'App para ayudar a jugadores de Top Eleven⚽, tiene registro de usuarios con apartado de perfil y foro para preguntas o aportes. (En desarrollo)',
-    img: imagen7,
+    img: image7,
     tecnologies: ['react', 'react-router', 'redux-toolkit', 'bootstrap', 'formik', 'firebase'],
     repo: 'https://github.com/joaquinnieva/top-helper',
   },
@@ -99,10 +99,10 @@ let proyectos = [
     name: 'Arc',
     description:
       'Landing page 💻 , una página estática para desplegar información de una marca dedicada a la arquitectura, desarrollada con el fin de cumplir con el desafio de Frontend Jr para Wantfrom Company.',
-    img: imagen8,
+    img: image8,
     tecnologies: ['HTML', 'CSS', 'Bootstrap'],
     link: 'https://arc-wantfromc.web.app/',
     repo: 'https://github.com/joaquinnieva/arc',
   },
 ];
-export default proyectos;
+export default proyects;

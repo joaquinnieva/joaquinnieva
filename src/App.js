@@ -1,17 +1,19 @@
-import Navbar from "./components/Navbar";
-import Biografia from "./pages/Biografia";
-import Habilidades from "./pages/Habilidades";
-import Inicio from "./pages/Inicio";
-import Portafolio from "./pages/Portafolio";
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import BiographyPage from './pages/BiographyPage';
+import HomePage from './pages/HomePage';
+import PortfolioPage from './pages/PortfolioPage';
+import SkillPage from './pages/SkillPage';
 
 function App() {
   return (
     <>
       <Navbar>
-        <Inicio />
-        <Habilidades />
-        <Portafolio />
-        <Biografia />
+        <HomePage />
+        <SkillPage />
+        <PortfolioPage />
+        <BiographyPage />
+        <Footer />
       </Navbar>
     </>
   );

@@ -1,8 +1,9 @@
-import { useState } from "react";
-import Modal from "./Modal";
-import "./styles/Proyectos.css";
+import { useState } from 'react';
+import { DEMO, REPO } from '../data/constants';
+import '../styles/PortfolioPage.css';
+import Modal from './Modal';
 
-const ProyectosCard = ({ info }) => {
+const ProyectCard = ({ info }) => {
   const keyEscape = (event) => {
     const tecla = event.keyCode;
     if (tecla === 27) {
@@ -37,7 +38,7 @@ const ProyectosCard = ({ info }) => {
               <div className="modal-links">
                 {info.repo && (
                   <a className="modal-link-repo" href={info.repo} target="_blank" rel="noreferrer">
-                    Repo &nbsp;
+                    {REPO} &nbsp;
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -55,7 +56,7 @@ const ProyectosCard = ({ info }) => {
                 )}
                 {info.link && (
                   <a className="modal-link-demo" href={info.link} target="_blank" rel="noreferrer">
-                    Demo &nbsp;
+                    {DEMO} &nbsp;
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -90,4 +91,4 @@ const ProyectosCard = ({ info }) => {
     </>
   );
 };
-export default ProyectosCard;
+export default ProyectCard;
