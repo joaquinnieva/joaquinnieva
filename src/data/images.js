@@ -1,22 +1,19 @@
 import bootstrap from '../img/bootstrap.png';
 import coder from '../img/coder.svg';
 import css from '../img/css.png';
-import cursor from '../img/cursor.png';
-import cursord from '../img/cursord.png';
-import designer from '../img/designer.png';
 import express from '../img/express.png';
 import figma from '../img/figma.png';
+import firebase from '../img/firebase.png';
 import flecha from '../img/flecha.png';
 import github from '../img/github.png';
 import gmail from '../img/gmail.png';
 import html from '../img/html.png';
 import illustrator from '../img/illustrator.png';
+import javascript from '../img/javascript.png';
 import jn from '../img/jn.png';
-import js from '../img/js.png';
-import land from '../img/land.png';
-import line from '../img/line.png';
 import linkedin from '../img/linkedin.png';
 import logoentero from '../img/logoentero.png';
+import mongo from '../img/mongo.png';
 import mysql from '../img/mysql.png';
 import node from '../img/node.png';
 import perfil from '../img/perfil.png';
@@ -33,50 +30,45 @@ import proyecto8 from '../img/proyecto8.png';
 import react from '../img/react.png';
 import redux from '../img/redux.png';
 import sass from '../img/sass.png';
-import textcursor from '../img/textcursor.png';
+import tailwind from '../img/tailwind.png';
 import trama from '../img/trama.png';
-import vapor from '../img/vapor.png';
 import wordpress from '../img/wordpress.png';
 
-let images = {
-  perfil: perfil,
-  land: land,
-  bootstrap: bootstrap,
-  coder: coder,
-  css: css,
-  html: html,
-  js: js,
-  flecha: flecha,
-  illustrator: illustrator,
-  photoshop: photoshop,
-  figma: figma,
-  designer: designer,
-  jn: jn,
-  react: react,
-  sass: sass,
-  redux: redux,
-  wordpress: wordpress,
-  php: php,
-  express: express,
-  node: node,
-  mysql: mysql,
-  linkedin: linkedin,
-  gmail: gmail,
-  github: github,
-  cursor: cursor,
-  vapor: vapor,
-  trama: trama,
-  logoentero: logoentero,
-  cursord: cursord,
-  textcursor: textcursor,
-  line: line,
-  proyecto1: proyecto1,
-  proyecto2: proyecto2,
-  proyecto3: proyecto3,
-  proyecto4: proyecto4,
-  proyecto5: proyecto5,
-  proyecto6: proyecto6,
-  proyecto7: proyecto7,
-  proyecto8: proyecto8,
+const images = {
+  bootstrap,
+  coder,
+  css,
+  express,
+  flecha,
+  figma,
+  firebase,
+  gmail,
+  github,
+  javascript,
+  jn,
+  html,
+  illustrator,
+  linkedin,
+  logoentero,
+  mongo,
+  mysql,
+  node,
+  perfil,
+  photoshop,
+  php,
+  react,
+  redux,
+  sass,
+  trama,
+  tailwind,
+  wordpress,
+  proyecto1,
+  proyecto2,
+  proyecto3,
+  proyecto4,
+  proyecto5,
+  proyecto6,
+  proyecto7,
+  proyecto8,
 };
 export default images;

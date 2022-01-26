@@ -1,9 +1,9 @@
-.conte {
+.container-bio {
   width: 90%;
-  height: 450px;
+  height: auto;
   background-color: #c4c4c4;
-  margin: 100px auto;
-  padding: 20px;
+  margin: 100px auto 50px auto;
+  padding: 80px 20px;
   position: relative;
   overflow: hidden;
   transition: 0.3s ease;
@@ -69,19 +69,32 @@
 }
 
 @media screen and (min-width: 1400px) {
-  .conte {
+  .container-bio {
     width: 1200px;
-    margin: 200px auto 200px auto;
+    margin: 200px auto;
   }
 }
 @media screen and (max-width: 1000px) {
-  .conte {
+  .container-bio {
     height: auto;
     display: flex;
     flex-direction: column;
     padding: 20px 0px;
     margin: 100px 0px 100px 0px;
     width: 100%;
+  }
+  .img-cont {
+    height: 250px;
+    width: auto;
+    position: relative;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-avatar {
+    position: relative;
+    height: 100%;
   }
   .texto {
     height: auto;

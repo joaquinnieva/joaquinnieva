@@ -1,24 +1,15 @@
-import React, { useState } from 'react';
 import '../styles/Skill.css';
 import Coder from './Coder';
 import Designer from './Designer';
 
 const Skill = ({ title, text, skill }) => {
-  const [style, setStyle] = useState({});
-  setTimeout(() => {
-    const newStyle = {
-      opacity: 1,
-    };
-    setStyle(newStyle);
-  }, 100);
   return (
-    <div className="container-skill" style={style}>
+    <div className="container-skill">
       <div className="skill">
-        <div className="container-img">
-          {(skill === 'designer' && <Designer className="skill-img" />) ||
-            (skill === 'coder' && <Coder className="skill-img" />)}
+        <div data-aos="fade-right" data-aos-duration="800" className="container-img">
+          {(skill === 'designer' && <Designer />) || (skill === 'coder' && <Coder />)}
         </div>
-        <div className="container-text">
+        <div data-aos="fade-left" data-aos-duration="800" className="container-text">
           <h3 className="skill-title"> {title} </h3>
           <p className="skill-text"> {text} </p>
         </div>

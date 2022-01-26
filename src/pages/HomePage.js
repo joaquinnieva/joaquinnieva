@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-scroll';
 import Landing from '../components/Landing.js';
 import { LANDING_BUTTON, LANDING_TITLE } from '../data/constants.js';
@@ -6,15 +5,8 @@ import images from '../data/images.js';
 import '../styles/HomePage.css';
 
 const HomePage = () => {
-  const [style, setStyle] = React.useState({});
-  setTimeout(() => {
-    const newStyle = {
-      opacity: 1,
-    };
-    setStyle(newStyle);
-  }, 100);
   return (
-    <section className="container-home" style={style} id="inicio">
+    <section data-aos="fade-down" className="container-home" id="inicio">
       <div className="land">
         <header className="land-text">
           <div className="land-logo">
@@ -22,7 +14,7 @@ const HomePage = () => {
           </div>
           <p className="land-title">{LANDING_TITLE}</p>
           <Link className="land-button" to="habilidades" smooth={true}>
-            {LANDING_BUTTON}!
+            {LANDING_BUTTON}
           </Link>
         </header>
         <div className="land-img">
