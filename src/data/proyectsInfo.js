@@ -7,6 +7,7 @@ const image5 = images.proyecto5;
 const image6 = images.proyecto6;
 const image7 = images.proyecto7;
 const image8 = images.proyecto8;
+const image9 = images.proyecto9;
 
 let proyects = [
   {
@@ -14,7 +15,7 @@ let proyects = [
     name: 'Portafolio',
     description: 'Es este mismo proyecto 👜 , donde puedo recopilar información sobre mí y mostrar lo que hago.',
     img: image1,
-    tecnologies: ['react', 'css'],
+    tecnologies: ['react', 'css', 'aos'],
     link: 'https://joaquinnieva.github.io/joaquinnieva/',
     repo: 'https://github.com/joaquinnieva/joaquinnieva',
   },
@@ -103,6 +104,27 @@ let proyects = [
     tecnologies: ['HTML', 'CSS', 'Bootstrap'],
     link: 'https://arc-wantfromc.web.app/',
     repo: 'https://github.com/joaquinnieva/arc',
+  },
+  {
+    id: 9,
+    name: 'Vink',
+    description:
+      'App de links 🔗 , una app para centralizar links, donde puedes crear y compartir tu perfil con los links que quieras. Desarrollado con el stack MERN. (En desarrollo)',
+    img: image9,
+    tecnologies: [
+      'react',
+      'react-router',
+      'redux-toolkit',
+      'tailwind',
+      'formik',
+      'axios',
+      'node',
+      'express',
+      'mongodb',
+      'mongoose',
+      'jwt',
+    ],
+    repo: 'https://github.com/joaquinnieva/vink',
   },
 ];
 export default proyects;

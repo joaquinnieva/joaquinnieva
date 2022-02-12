@@ -13,15 +13,13 @@ function App() {
     Aos.init({ duration: 1500, mirror: true });
   }, []);
   return (
-    <>
-      <Navbar>
-        <HomePage />
-        <SkillPage />
-        <PortfolioPage />
-        <BiographyPage />
-        <Footer />
-      </Navbar>
-    </>
+    <Navbar>
+      <HomePage />
+      <SkillPage />
+      <PortfolioPage />
+      <BiographyPage />
+      <Footer />
+    </Navbar>
   );
 }
 

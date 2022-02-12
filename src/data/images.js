@@ -27,6 +27,7 @@ import proyecto5 from '../img/proyecto5.png';
 import proyecto6 from '../img/proyecto6.png';
 import proyecto7 from '../img/proyecto7.png';
 import proyecto8 from '../img/proyecto8.png';
+import proyecto9 from '../img/proyecto9.png';
 import react from '../img/react.png';
 import redux from '../img/redux.png';
 import sass from '../img/sass.png';
@@ -70,5 +71,6 @@ const images = {
   proyecto6,
   proyecto7,
   proyecto8,
+  proyecto9,
 };
 export default images;
