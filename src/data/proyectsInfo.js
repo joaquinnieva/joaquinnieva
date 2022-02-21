@@ -125,6 +125,7 @@ let proyects = [
       'jwt',
     ],
     repo: 'https://github.com/joaquinnieva/vink',
+    link: 'https://vink.vercel.app/',
   },
 ];
 export default proyects;
