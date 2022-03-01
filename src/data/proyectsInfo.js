@@ -6,7 +6,7 @@ const image4 = images.proyecto4;
 const image5 = images.proyecto5;
 const image6 = images.proyecto6;
 const image7 = images.proyecto7;
-const image8 = images.proyecto8;
+// const image8 = images.proyecto8;
 const image9 = images.proyecto9;
 
 let proyects = [
@@ -23,9 +23,9 @@ let proyects = [
     id: 2,
     name: 'ecommerce',
     description:
-      'Página comercial 🛒 , parte frontend de un e-commerce SPA que tiene slider y carrito de compras. (En desarrollo)',
+      'Página comercial 🛒 , parte frontend de un e-commerce SPA que tiene slider y carrito de compras, usando una API (fakestoreapi) para llamar a los productos.',
     img: image2,
-    tecnologies: ['react', 'react-router', 'redux', 'css', 'styled-components'],
+    tecnologies: ['react', 'react-router', 'redux-toolkit', 'css', 'axios', 'react-toastify', 'styled-components'],
     link: 'https://ecommerce-proyecto.vercel.app/',
     repo: 'https://github.com/joaquinnieva/ecommerce-proyecto',
   },
@@ -51,9 +51,9 @@ let proyects = [
   },
   {
     id: 5,
-    name: 'Hiro',
+    name: 'Challenge Alkemy',
     description:
-      'SPA de heroes 🐱‍🏍. Utilizo una API externa para poder llamar a los heroes, tiene un login para poder ingresar, y se puede armar un equipo de 6, validando que 3 sean buenos y 3 sean malos.     (solo inicia con datos puestos)',
+      'SPA de heroes 🐱‍🏍. Utilizo una API (superheroapi) externa para poder llamar a los heroes, tiene un login para poder ingresar, y se puede armar un equipo de 6, validando que 3 sean buenos y 3 sean malos.     (solo inicia con datos puestos)',
     img: image5,
     tecnologies: ['react', 'react-router', 'redux', 'bootstrap', 'formik', 'axios'],
     link: 'https://hiro-app-joaquinnieva.vercel.app/',
@@ -61,7 +61,7 @@ let proyects = [
   },
   {
     id: 6,
-    name: 'Somos Más',
+    name: 'Aceleración Alkemy',
     description: (
       <p>
         SPA creada en la aceleracion de&nbsp;
@@ -95,21 +95,21 @@ let proyects = [
     tecnologies: ['react', 'react-router', 'redux-toolkit', 'bootstrap', 'formik', 'firebase'],
     repo: 'https://github.com/joaquinnieva/top-helper',
   },
-  {
-    id: 8,
-    name: 'Arc',
-    description:
-      'Landing page 💻 , una página estática para desplegar información de una marca dedicada a la arquitectura, desarrollada con el fin de cumplir con el desafio de Frontend Jr para Wantfrom Company.',
-    img: image8,
-    tecnologies: ['HTML', 'CSS', 'Bootstrap'],
-    link: 'https://arc-wantfromc.web.app/',
-    repo: 'https://github.com/joaquinnieva/arc',
-  },
+  // {
+  //   id: 8,
+  //   name: 'Arc',
+  //   description:
+  //     'Landing page 💻 , una página estática para desplegar información de una marca dedicada a la arquitectura, desarrollada con el fin de cumplir con el desafio de Frontend Jr para Wantfrom Company.',
+  //   img: image8,
+  //   tecnologies: ['HTML', 'CSS', 'Bootstrap'],
+  //   link: 'https://arc-wantfromc.web.app/',
+  //   repo: 'https://github.com/joaquinnieva/arc',
+  // },
   {
     id: 9,
     name: 'Vink',
     description:
-      'App de links 🔗 , una app para centralizar links, donde puedes crear y compartir tu perfil con los links que quieras. Desarrollado con el stack MERN. (En desarrollo)',
+      'Sitio web personalizado a tu perfil 📄 , una app para generar un sitio web donde crear tu perfil y también centralizar links, puedes crear y compartir tu perfil con los links y tu descripción, además puedes personalizarlo a tu estilo . Desarrollado con el stack MERN.',
     img: image9,
     tecnologies: [
       'react',
