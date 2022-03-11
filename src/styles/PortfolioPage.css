@@ -29,18 +29,28 @@
   grid-template-rows: 1fr;
 }
 .proyectoscard {
+  position: relative;
   max-width: 300px;
   max-height: 170px;
   width: 100vw;
   height: auto;
   margin: 0px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .proyectoscard-img {
-  width: 100%;
+  position: relative;
+  width: 105%;
+  transition: ease 0.5s;
 }
 .card-link {
-  position: relative;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: -10px;
   cursor: pointer;
 }
 .card-info {
@@ -66,10 +76,15 @@
   color: #ff5656c6;
 }
 
-.proyectoscard:hover .card-info{
+.proyectoscard:hover .card-info {
   opacity: 1;
   bottom: 4px;
-  transition: opacity .4s;
+  transition: opacity 0.4s;
+}
+.proyectoscard:hover .proyectoscard-img {
+  position: relative;
+  width: 115%;
+  transition: ease 0.4s;
 }
 
 @media screen and (min-width: 1400px) {
