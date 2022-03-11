@@ -87,25 +87,6 @@ let proyects = [
     repo: 'https://github.com/alkemyTech/OT-93-Server',
   },
   {
-    id: 7,
-    name: 'Top Helper',
-    description:
-      'App para ayudar a jugadores de Top Eleven⚽, tiene registro de usuarios con apartado de perfil y foro para preguntas o aportes. (En desarrollo)',
-    img: image7,
-    tecnologies: ['react', 'react-router', 'redux-toolkit', 'bootstrap', 'formik', 'firebase'],
-    repo: 'https://github.com/joaquinnieva/top-helper',
-  },
-  // {
-  //   id: 8,
-  //   name: 'Arc',
-  //   description:
-  //     'Landing page 💻 , una página estática para desplegar información de una marca dedicada a la arquitectura, desarrollada con el fin de cumplir con el desafio de Frontend Jr para Wantfrom Company.',
-  //   img: image8,
-  //   tecnologies: ['HTML', 'CSS', 'Bootstrap'],
-  //   link: 'https://arc-wantfromc.web.app/',
-  //   repo: 'https://github.com/joaquinnieva/arc',
-  // },
-  {
     id: 9,
     name: 'Vink',
     description:
@@ -126,6 +107,15 @@ let proyects = [
     ],
     repo: 'https://github.com/joaquinnieva/vink',
     link: 'https://vink.vercel.app/',
+  },
+  {
+    id: 7,
+    name: 'Librery',
+    description:
+      'Aplicación basada en PDFs de forma foro o red social📚, se puede compartir PDFs y después un admin lo ordena en una librería por categorías . (En desarrollo)',
+    img: image7,
+    tecnologies: ['next', 'mysql', 'recoil', 'tailwind', 'yup', 'formik', 'axios', 'next-themes'],
+    repo: 'https://github.com/joaquinnieva/library-proyect',
   },
 ];
 export default proyects;

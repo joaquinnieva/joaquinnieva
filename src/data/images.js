@@ -15,6 +15,7 @@ import linkedin from '../img/linkedin.png';
 import logoentero from '../img/logoentero.png';
 import mongo from '../img/mongo.png';
 import mysql from '../img/mysql.png';
+import next from '../img/next.png';
 import node from '../img/node.png';
 import perfil from '../img/perfil.png';
 import photoshop from '../img/photoshop.png';
@@ -54,6 +55,7 @@ const images = {
   mongo,
   mysql,
   node,
+  next,
   perfil,
   photoshop,
   php,
