@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/joaquinnieva/static/css/main.2c427836.chunk.css",
-    "main.js": "/joaquinnieva/static/js/main.c1437a51.chunk.js",
-    "main.js.map": "/joaquinnieva/static/js/main.c1437a51.chunk.js.map",
+    "main.js": "/joaquinnieva/static/js/main.f9bb5ad5.chunk.js",
+    "main.js.map": "/joaquinnieva/static/js/main.f9bb5ad5.chunk.js.map",
     "runtime-main.js": "/joaquinnieva/static/js/runtime-main.426d416c.js",
     "runtime-main.js.map": "/joaquinnieva/static/js/runtime-main.426d416c.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/joaquinnieva/static/css/2.7fc9bc2b.chunk.css",
@@ -27,7 +27,7 @@
     "static/media/proyecto4.bd3f98a5.png": "/joaquinnieva/static/media/proyecto4.bd3f98a5.png",
     "static/media/proyecto5.c70fe8e1.png": "/joaquinnieva/static/media/proyecto5.c70fe8e1.png",
     "static/media/proyecto6.e83c755d.png": "/joaquinnieva/static/media/proyecto6.e83c755d.png",
-    "static/media/proyecto7.a9a95fc0.png": "/joaquinnieva/static/media/proyecto7.a9a95fc0.png",
+    "static/media/proyecto7.d0c6dc7e.png": "/joaquinnieva/static/media/proyecto7.d0c6dc7e.png",
     "static/media/proyecto8.abd3ee28.png": "/joaquinnieva/static/media/proyecto8.abd3ee28.png",
     "static/media/proyecto9.d3fc71e8.png": "/joaquinnieva/static/media/proyecto9.d3fc71e8.png",
     "static/media/sass.0dc343af.png": "/joaquinnieva/static/media/sass.0dc343af.png",
@@ -40,6 +40,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3877a5bf.chunk.js",
     "static/css/main.2c427836.chunk.css",
-    "static/js/main.c1437a51.chunk.js"
+    "static/js/main.f9bb5ad5.chunk.js"
   ]
 }
