@@ -83,7 +83,7 @@
 }
 .proyectoscard:hover .proyectoscard-img {
   position: relative;
-  width: 115%;
+  width: 110%;
   transition: ease 0.4s;
 }
 
