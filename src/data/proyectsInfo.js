@@ -106,7 +106,7 @@ let proyects = [
       'jwt',
     ],
     repo: 'https://github.com/joaquinnieva/vink',
-    link: 'https://vink.vercel.app/',
+    link: 'https://vink.vercel.app',
   },
   {
     id: 7,
@@ -116,6 +116,7 @@ let proyects = [
     img: image7,
     tecnologies: ['next', 'mysql', 'recoil', 'tailwind', 'yup', 'formik', 'axios', 'next-themes'],
     repo: 'https://github.com/joaquinnieva/library-proyect',
+    link: 'https://librery-app.vercel.app',
   },
 ];
 export default proyects;
