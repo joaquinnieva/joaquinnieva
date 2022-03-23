@@ -11,13 +11,36 @@ const image9 = images.proyecto9;
 
 let proyects = [
   {
-    id: 1,
-    name: 'Portafolio',
-    description: 'Es este mismo proyecto 👜 , donde puedo recopilar información sobre mí y mostrar lo que hago.',
-    img: image1,
-    tecnologies: ['react', 'css', 'aos'],
-    link: 'https://joaquinnieva.github.io/joaquinnieva/',
-    repo: 'https://github.com/joaquinnieva/joaquinnieva',
+    id: 9,
+    name: 'Vink',
+    description:
+      'Sitio web personalizado a tu perfil 📄 , una app para generar un sitio web donde crear tu perfil y también centralizar links, puedes crear y compartir tu perfil con los links y tu descripción, además puedes personalizarlo a tu estilo . Desarrollado con el stack MERN.',
+    img: image9,
+    tecnologies: [
+      'react',
+      'react-router',
+      'redux-toolkit',
+      'tailwind',
+      'formik',
+      'axios',
+      'node',
+      'express',
+      'mongodb',
+      'mongoose',
+      'jwt',
+    ],
+    repo: 'https://github.com/joaquinnieva/vink',
+    link: 'https://vink.vercel.app',
+  },
+  {
+    id: 7,
+    name: 'Librery',
+    description:
+      'Aplicación basada en PDFs de forma foro o red social📚, se puede compartir PDFs y después un admin lo ordena en una librería por categorías . (En desarrollo)',
+    img: image7,
+    tecnologies: ['next', 'mysql', 'recoil', 'tailwind', 'yup', 'formik', 'axios', 'next-themes'],
+    repo: 'https://github.com/joaquinnieva/library-proyect',
+    link: 'https://librery-app.vercel.app',
   },
   {
     id: 2,
@@ -30,16 +53,6 @@ let proyects = [
     repo: 'https://github.com/joaquinnieva/ecommerce-proyecto',
   },
   {
-    id: 3,
-    name: 'Done',
-    description:
-      'Done📑 es una app de tareas, un CRUD básico donde manejo el estado global para la creación y eliminación de tareas.',
-    img: image3,
-    tecnologies: ['react', 'redux', 'css'],
-    link: 'https://joaquinnieva.github.io/done-proyect/',
-    repo: 'https://github.com/joaquinnieva/done-proyect',
-  },
-  {
     id: 4,
     name: 'Tech Fix',
     description:
@@ -48,6 +61,16 @@ let proyects = [
     tecnologies: ['react', 'css'],
     link: 'https://joaquinnieva.github.io/techfix/',
     repo: 'https://github.com/joaquinnieva/techfix',
+  },
+  {
+    id: 3,
+    name: 'Done',
+    description:
+      'Done📑 es una app de tareas, un CRUD básico donde manejo el estado global para la creación y eliminación de tareas.',
+    img: image3,
+    tecnologies: ['react', 'redux', 'css'],
+    link: 'https://joaquinnieva.github.io/done-proyect/',
+    repo: 'https://github.com/joaquinnieva/done-proyect',
   },
   {
     id: 5,
@@ -87,36 +110,13 @@ let proyects = [
     repo: 'https://github.com/alkemyTech/OT-93-Server',
   },
   {
-    id: 9,
-    name: 'Vink',
-    description:
-      'Sitio web personalizado a tu perfil 📄 , una app para generar un sitio web donde crear tu perfil y también centralizar links, puedes crear y compartir tu perfil con los links y tu descripción, además puedes personalizarlo a tu estilo . Desarrollado con el stack MERN.',
-    img: image9,
-    tecnologies: [
-      'react',
-      'react-router',
-      'redux-toolkit',
-      'tailwind',
-      'formik',
-      'axios',
-      'node',
-      'express',
-      'mongodb',
-      'mongoose',
-      'jwt',
-    ],
-    repo: 'https://github.com/joaquinnieva/vink',
-    link: 'https://vink.vercel.app',
-  },
-  {
-    id: 7,
-    name: 'Librery',
-    description:
-      'Aplicación basada en PDFs de forma foro o red social📚, se puede compartir PDFs y después un admin lo ordena en una librería por categorías . (En desarrollo)',
-    img: image7,
-    tecnologies: ['next', 'mysql', 'recoil', 'tailwind', 'yup', 'formik', 'axios', 'next-themes'],
-    repo: 'https://github.com/joaquinnieva/library-proyect',
-    link: 'https://librery-app.vercel.app',
+    id: 1,
+    name: 'Portafolio',
+    description: 'Es este mismo proyecto 👜 , donde puedo recopilar información sobre mí y mostrar lo que hago.',
+    img: image1,
+    tecnologies: ['react', 'css', 'aos'],
+    link: 'https://joaquinnieva.github.io/joaquinnieva/',
+    repo: 'https://github.com/joaquinnieva/joaquinnieva',
   },
 ];
 export default proyects;

@@ -5,7 +5,7 @@ import '../styles/BiographyPage.css';
 
 const BiographyPage = () => {
   return (
-    <section data-aos="zoom-out" data-aos-duration="800" className="container-bio">
+    <section className="container-bio">
       <div className="img-cont">
         <img className="img-avatar" src={images.perfil} alt="avatar" id="sobre" />
       </div>

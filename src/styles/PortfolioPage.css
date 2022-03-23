@@ -86,6 +86,21 @@
   width: 110%;
   transition: ease 0.4s;
 }
+.button-view {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 35px;
+  padding: 10px 35px 10px 35px;
+  background-color: #c4c4c4;
+  color: #414447;
+  border-radius: 2px;
+  border: 1.9px solid #c4c4c4;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
 @media screen and (min-width: 1400px) {
   .container-proyectos {
