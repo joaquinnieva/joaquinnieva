@@ -17,7 +17,7 @@ function Footer() {
           <span className="tooltip-gmail">{pressButton}</span>
           <img className="img-gmail" src={images.gmail} alt="mail" />
         </button>
-        <a href="https://www.linkedin.com/in/joaqu%C3%ADnnieva/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/joaquinnieva/" target="_blank" rel="noreferrer">
           <img className="img-linkedin" src={images.linkedin} alt="linkedin" />
         </a>
         <a href="https://github.com/joaquinnieva" target="_blank" rel="noreferrer">
