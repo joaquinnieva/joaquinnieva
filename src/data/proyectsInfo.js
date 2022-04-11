@@ -14,7 +14,7 @@ let proyects = [
     id: 9,
     name: 'Vink',
     description:
-      'Sitio web personalizado a tu perfil 📄 , una app para generar un sitio web donde crear tu perfil y también centralizar links, puedes crear y compartir tu perfil con los links y tu descripción, además puedes personalizarlo a tu estilo . Desarrollado con el stack MERN.',
+      'Perfil personalizado 📄, una app para generar un sitio web donde muestras tu perfil y también tus links centralizados, puedes crear y compartir tu perfil con los links y tu descripción, además puedes personalizarlo a tu gusto. Desarrollado con el stack MERN.',
     img: image9,
     tecnologies: [
       'react',

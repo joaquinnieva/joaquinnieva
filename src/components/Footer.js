@@ -13,14 +13,14 @@ function Footer() {
     <footer className="container-contact" id="contacto">
       <h2 className="contact-title">{CONTACT_TITLE}</h2>
       <div className="contact-links">
-        <button type="button" className="btn-gmail" onClick={handleCopy}>
+        <button type="button" className="btn-gmail link-contact" onClick={handleCopy}>
           <span className="tooltip-gmail">{pressButton}</span>
           <img className="img-gmail" src={images.gmail} alt="mail" />
         </button>
-        <a href="https://www.linkedin.com/in/joaquinnieva/" target="_blank" rel="noreferrer">
+        <a className="link-contact" href="https://www.linkedin.com/in/joaquinnieva/" target="_blank" rel="noreferrer">
           <img className="img-linkedin" src={images.linkedin} alt="linkedin" />
         </a>
-        <a href="https://github.com/joaquinnieva" target="_blank" rel="noreferrer">
+        <a className="link-contact" href="https://github.com/joaquinnieva" target="_blank" rel="noreferrer">
           <img className="img-github" src={images.github} alt="mail" />
         </a>
       </div>

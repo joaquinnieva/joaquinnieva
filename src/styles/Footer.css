@@ -43,6 +43,10 @@
   font-weight: 700;
   user-select: none;
 }
+.link-contact:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease;
+}
 .img-github,
 .img-gmail {
   width: 55px;

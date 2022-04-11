@@ -14,9 +14,11 @@ const ProyectCard = ({ info }) => {
   const [modal, setModal] = useState(false);
   const handleOpen = () => {
     setModal(true);
+    document.documentElement.style.overflowY = 'hidden';
   };
   const handleClose = () => {
     setModal(false);
+    document.documentElement.style.overflowY = 'auto';
   };
 
   return (

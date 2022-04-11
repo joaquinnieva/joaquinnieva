@@ -60,7 +60,7 @@
 .land-button:hover {
   padding: 10px 35px 10px 35px;
   background-color: #a2a2a2;
-  color: #272b2f;
+  color: #0b0a0a;
   border: 1.9px solid #a2a2a2;
   list-style: none;
   cursor: pointer;
@@ -231,13 +231,9 @@
     transform: translateY(35px);
   }
 }
-@media screen and (max-height: 600px) {
+@media (max-width: 1000px) {
   .land {
-    margin: 80px auto 0px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .land {
+    margin: 50px auto 0px;
     position: relative;
     width: 100vw;
     height: auto;

@@ -16,18 +16,14 @@ const PortfolioPage = () => {
     <section className="container-proyectos" id="portfolio">
       <h3 className="proyectos-title">{PORTFOLIO_TITLE}</h3>
       <div data-aos="fade-zoom-in" data-aos-duration="500" className="cont-proyectoscard">
-        {toView === false ? (
-          proyects.map((proyect) => (
-            <>
-              <ProyectCard key={proyect.id} info={proyect} />
-            </>
-          ))
-        ) : (
+        {toView === true ? (
           <>
-            <ProyectCard key="0" info={proyects[0]} />
-            <ProyectCard key="1" info={proyects[1]} />
-            <ProyectCard key="2" info={proyects[2]} />
+            <ProyectCard info={proyects[0]} />
+            <ProyectCard info={proyects[1]} />
+            <ProyectCard info={proyects[2]} />
           </>
+        ) : (
+          proyects.map((proyect, index) => <ProyectCard key={index} info={proyect} />)
         )}
       </div>
       <button onClick={handleView} className="button-view">
