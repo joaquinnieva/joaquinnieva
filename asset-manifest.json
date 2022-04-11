@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/joaquinnieva/static/css/main.f5d6ef2b.chunk.css",
-    "main.js": "/joaquinnieva/static/js/main.7c59bfde.chunk.js",
-    "main.js.map": "/joaquinnieva/static/js/main.7c59bfde.chunk.js.map",
+    "main.css": "/joaquinnieva/static/css/main.0082194b.chunk.css",
+    "main.js": "/joaquinnieva/static/js/main.6a6ec450.chunk.js",
+    "main.js.map": "/joaquinnieva/static/js/main.6a6ec450.chunk.js.map",
     "runtime-main.js": "/joaquinnieva/static/js/runtime-main.426d416c.js",
     "runtime-main.js.map": "/joaquinnieva/static/js/runtime-main.426d416c.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/joaquinnieva/static/css/2.7fc9bc2b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.ff48c535.chunk.js.map": "/joaquinnieva/static/js/2.ff48c535.chunk.js.map",
     "index.html": "/joaquinnieva/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/joaquinnieva/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.f5d6ef2b.chunk.css.map": "/joaquinnieva/static/css/main.f5d6ef2b.chunk.css.map",
+    "static/css/main.0082194b.chunk.css.map": "/joaquinnieva/static/css/main.0082194b.chunk.css.map",
     "static/js/2.ff48c535.chunk.js.LICENSE.txt": "/joaquinnieva/static/js/2.ff48c535.chunk.js.LICENSE.txt",
     "static/media/JoaquínNievaCV.388e6b0f.pdf": "/joaquinnieva/static/media/JoaquínNievaCV.388e6b0f.pdf",
     "static/media/coder.f72522e4.svg": "/joaquinnieva/static/media/coder.f72522e4.svg",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.426d416c.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.ff48c535.chunk.js",
-    "static/css/main.f5d6ef2b.chunk.css",
-    "static/js/main.7c59bfde.chunk.js"
+    "static/css/main.0082194b.chunk.css",
+    "static/js/main.6a6ec450.chunk.js"
   ]
 }
