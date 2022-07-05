@@ -8,6 +8,7 @@ const image6 = images.proyecto6;
 const image7 = images.proyecto7;
 // const image8 = images.proyecto8;
 const image9 = images.proyecto9;
+const image10 = images.proyecto10;
 
 let proyects = [
   {
@@ -41,6 +42,16 @@ let proyects = [
     tecnologies: ['next', 'mysql', 'recoil', 'tailwind', 'yup', 'formik', 'axios', 'next-themes'],
     repo: 'https://github.com/joaquinnieva/library-proyect',
     link: 'https://librery-app.vercel.app',
+  },
+  {
+    id: 10,
+    name: 'apmin',
+    description:
+      'Aplicación de envíos 📦 , SPA de envíos funcional y facil de usar, se pueden crear envíos y ver su estado ademas de editarlos. (En desarrollo)',
+    img: image10,
+    tecnologies: ['angular', 'tailwind', 'node', 'express', 'postgressql', 'sequelize', 'jwt'],
+    link: 'https://apmin.vercel.app',
+    repo: 'https://github.com/joaquinnieva/apmin',
   },
   {
     id: 2,

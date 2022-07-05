@@ -21,6 +21,7 @@ import perfil from '../img/perfil.png';
 import photoshop from '../img/photoshop.png';
 import php from '../img/php.png';
 import proyecto1 from '../img/proyecto1.png';
+import proyecto10 from '../img/proyecto10.png';
 import proyecto2 from '../img/proyecto2.png';
 import proyecto3 from '../img/proyecto3.png';
 import proyecto4 from '../img/proyecto4.png';
@@ -74,5 +75,6 @@ const images = {
   proyecto7,
   proyecto8,
   proyecto9,
+  proyecto10,
 };
 export default images;
