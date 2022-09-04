@@ -5,8 +5,6 @@
 - 🔌 Amante de la tecnologia
 - 👓 Me gusta mucho saber y aprender
 
-
-🔍Buscando mi oportunidad en el mercado IT🔎
 #
 
 ### Contactame:
@@ -20,9 +18,11 @@
   ![Sass](https://img.shields.io/badge/-Sass-black?style=flat-square&logo=sass)
   ![Javascript](https://img.shields.io/badge/-Javascript-black?style=flat-square&logo=javascript)
   ![Node](https://img.shields.io/badge/-Node-black?style=flat-square&logo=node.js)
-  ![express](https://img.shields.io/badge/-express-black?style=flat-square&logo=express)
+  ![Express](https://img.shields.io/badge/-express-black?style=flat-square&logo=express)
   ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
   ![Redux](https://img.shields.io/badge/-Redux-black?style=flat-square&logo=redux&logoColor=blue)
+  ![Angular](https://img.shields.io/badge/-Angular-black?style=flat-square&logo=angular&logoColor=red)
+  ![Typescript](https://img.shields.io/badge/-Typescript-black?style=flat-square&logo=typescript&logoColor=blue)
   ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
   ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
   ![GIT](https://img.shields.io/badge/-GIT-black?style=flat-square&logo=git)
