@@ -108,6 +108,12 @@
   animation: code3 15s infinite alternate steps(15);
   stroke-dashoffset: 1;
 }
+.vapor1 {
+  animation: vapor1 15s infinite;
+}
+.vapor2 {
+  animation: vapor2 15s infinite;
+}
 @keyframes code1 {
   0% {
     stroke-dasharray: 14 115;

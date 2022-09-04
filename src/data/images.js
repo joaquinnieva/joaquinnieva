@@ -1,3 +1,4 @@
+import angular from '../img/angular.png';
 import bootstrap from '../img/bootstrap.png';
 import coder from '../img/coder.svg';
 import css from '../img/css.png';
@@ -51,6 +52,7 @@ const images = {
   jn,
   html,
   illustrator,
+  angular,
   linkedin,
   logoentero,
   mongo,
