@@ -1,16 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import ProyectCard from '../../components/ProyectCard/ProyectCard'
 import proyects from '../../constants/proyectsInfo'
 
 function Projects() {
   const [isCollapsed, collapse] = useState(true)
-  const [height, setHeight] = useState(0)
-
-  useEffect(() => {
-    setHeight(600 * 3)
-    /* eslint-enable */
-  }, [])
-
   return (
     <section id="projects" className="text-gray-400 body-font">
       <div className="container px-5 py-24 mx-auto">

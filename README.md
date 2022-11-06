@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+<h1 align="center"> Hola mi nombre es Joaquín Nieva y soy desarrollador frontend 👋 </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 📖 Estudiante autodidacta
+- ⌨ Junior en crecimiento
+- 🔌 Amante de la tecnologia
+- 👓 Me gusta mucho saber y aprender
 
-## Available Scripts
+#
 
-In the project directory, you can run:
+### Contactame:
 
-### `npm start`
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Joaquín%20Nieva-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/joaquinnieva)
+[![LinkedIn](https://img.shields.io/badge/Gmail-joacoo.nieva@gmail.com-blue?style=flat-square&logo=gmail)](mailto:joacoo.nieva@gmail.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Lenguajes y herramientas:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![HTML](https://img.shields.io/badge/-HTML-black?style=flat-square&logo=html5&logoColor=orange)
+![CSS](https://img.shields.io/badge/-CSS-black?style=flat-square&logo=css3&logoColor=blue)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-black?style=flat-square&logo=bootstrap)
+![Sass](https://img.shields.io/badge/-Sass-black?style=flat-square&logo=sass)
+![Javascript](https://img.shields.io/badge/-Javascript-black?style=flat-square&logo=javascript)
+![Node](https://img.shields.io/badge/-Node-black?style=flat-square&logo=node.js)
+![Express](https://img.shields.io/badge/-express-black?style=flat-square&logo=express)
+![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
+![Redux](https://img.shields.io/badge/-Redux-black?style=flat-square&logo=redux&logoColor=blue)
+![Angular](https://img.shields.io/badge/-Angular-black?style=flat-square&logo=angular&logoColor=red)
+![Typescript](https://img.shields.io/badge/-Typescript-black?style=flat-square&logo=typescript&logoColor=blue)
+![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
+![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
+![GIT](https://img.shields.io/badge/-GIT-black?style=flat-square&logo=git)
+\
+ ![Figma](https://img.shields.io/badge/-Figma-black?style=flat-square&logo=figma)
+![Photoshop](https://img.shields.io/badge/-Photoshop-black?style=flat-square&logo=adobephotoshop)
+![Illustrator](https://img.shields.io/badge/-Illustrator-black?style=flat-square&logo=adobeillustrator)
