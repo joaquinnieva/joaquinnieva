@@ -12,7 +12,7 @@ const BiographyPage = () => {
       <div className="text-cont">
         <p className="texto">{BIO_DESCRIPTION}</p>
         <a className="cv" href={myPDF} download="JoaquínNievaCV.pdf">
-          {BIO_BUTTON}
+          {BIO_BUTTON} 
         </a>
       </div>
     </section>
