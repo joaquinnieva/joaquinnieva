@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ProyectCard from '../../components/ProyectCard/ProyectCard'
+import { PROJECTS_DESCRIPTION } from '../../constants/constants'
 import proyects from '../../constants/proyectsInfo'
 
 function Projects() {
@@ -14,10 +15,7 @@ function Projects() {
             </h1>
           </div>
           <p className="w-full leading-relaxed text-opacity-90">
-            Este es mi portfolio de proyectos personales, algunos son simples,
-            de solo desarrollo fontend con los que fui aprendiendo y otros con
-            mas complejidad donde fui practicando, empleando backend con algunas
-            tecnologias con las que me capacité.
+            {PROJECTS_DESCRIPTION}
           </p>
         </div>
         <div

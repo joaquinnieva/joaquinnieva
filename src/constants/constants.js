@@ -12,6 +12,8 @@ export const CODER_DESCRIPTION =
 export const DESIGNER_TITLE = 'Diseño'
 export const DESIGNER_DESCRIPTION =
   'En el diseño trabajo con estos programas, el progreso de las barras comprende mi conocimiento y manejo con los mismos.'
+export const PROJECTS_DESCRIPTION =
+  'Este es mi portfolio de proyectos personales, algunos son simples, de solo desarrollo frontend con los que fui aprendiendo y otros con más complejidad, donde fuí practicando empleando backend con algunas tecnologías con las que me capacité.'
 export const REPO = 'Repo'
 export const DEMO = 'Demo'
 export const CONTACT_TITLE = 'CONTACTO'
