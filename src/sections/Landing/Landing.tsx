@@ -12,7 +12,7 @@ function Landing() {
   return (
     <section id="home" className="h-screen pt-20 text-gray-400 body-font">
       <div className="container flex flex-col-reverse items-center justify-around px-5 py-8 mx-auto lg:py-24 md:flex-row">
-        <div className="flex flex-col my-12 text-center ">
+        <div data-aos="fade-right" className="flex flex-col my-12 text-center ">
           <h1 className="text-2xl font-medium text-white text-start title-font sm:text-2xl">
             {LANDING_TITLE1}
           </h1>
@@ -34,7 +34,10 @@ function Landing() {
             </Link>
           </div>
         </div>
-        <div className="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+        <div
+          data-aos="fade-down"
+          className="w-5/6 lg:max-w-lg lg:w-full md:w-1/2"
+        >
           <IconLanding />
         </div>
       </div>

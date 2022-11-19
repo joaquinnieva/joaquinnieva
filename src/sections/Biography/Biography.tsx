@@ -6,7 +6,10 @@ const cvFile = require('../../img/JoaquínNievaCV.pdf')
 function Biography() {
   return (
     <section id="about" className="py-24 font-medium text-gray-800 body-font">
-      <div className="container flex flex-col items-center px-5 py-12 mx-auto border rounded-md bg-secondary md:flex-row border-secondary ">
+      <div
+        data-aos="fade-in"
+        className="container flex flex-col items-center px-5 py-12 mx-auto border rounded-md bg-secondary md:flex-row border-secondary "
+      >
         <div className="w-auto p-12 lg:w-auto">
           <ProfileIcon />
         </div>
