@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/joaquinnieva/static/css/main.cc8ad70f.css",
-    "main.js": "/joaquinnieva/static/js/main.f01932bb.js",
+    "main.js": "/joaquinnieva/static/js/main.4459db4d.js",
     "static/media/proyecto2.webp": "/joaquinnieva/static/media/proyecto2.301da59edca77103527d.webp",
     "static/media/trama.webp": "/joaquinnieva/static/media/trama.a4baa06815d3be3acb15.webp",
     "static/media/JoaquínNievaCV.pdf": "/joaquinnieva/static/media/JoaquínNievaCV.95d0def864233eed513e.pdf",
@@ -39,10 +39,10 @@
     "index.html": "/joaquinnieva/index.html",
     "static/media/flecha.webp": "/joaquinnieva/static/media/flecha.579c3ca3366467853a4e.webp",
     "main.cc8ad70f.css.map": "/joaquinnieva/static/css/main.cc8ad70f.css.map",
-    "main.f01932bb.js.map": "/joaquinnieva/static/js/main.f01932bb.js.map"
+    "main.4459db4d.js.map": "/joaquinnieva/static/js/main.4459db4d.js.map"
   },
   "entrypoints": [
     "static/css/main.cc8ad70f.css",
-    "static/js/main.f01932bb.js"
+    "static/js/main.4459db4d.js"
   ]
 }
