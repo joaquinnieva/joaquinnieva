@@ -25,6 +25,7 @@ function Skills() {
           </div>
           <div className="flex flex-col justify-center w-full py-10 bg-primary-900">
             <button
+              name="view-more"
               className="m-auto mb-4 md:hidden"
               onClick={() => colapse(!isCollapsed)}
             >

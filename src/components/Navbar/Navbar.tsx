@@ -11,6 +11,7 @@ function Navbar() {
         <img className="w-12" src={images.jn} alt="jn" />
         <div className="md:hidden">
           <button
+            name="menu"
             onClick={() => collapse(!isCollapse)}
             type="button"
             className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg hover:bg-primary-800"

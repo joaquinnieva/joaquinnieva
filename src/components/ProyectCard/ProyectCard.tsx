@@ -13,6 +13,7 @@ function ProyectCard({ proyect }: { proyect: any }) {
           </h2>
           <div className="flex gap-2">
             <a
+              aria-label="View deploy"
               href={proyect.link}
               target="_blank"
               rel="noreferrer"
@@ -21,6 +22,7 @@ function ProyectCard({ proyect }: { proyect: any }) {
               Demo
             </a>
             <a
+              aria-label="View repo"
               href={proyect.repo}
               target="_blank"
               rel="noreferrer"

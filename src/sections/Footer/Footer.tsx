@@ -20,6 +20,7 @@ function Footer() {
     >
       <div className="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
         <a
+          aria-label="View github"
           href="https://github.com/joaquinnieva"
           className="flex items-center justify-center p-3 font-medium text-white border rounded-full border-secondary/25 title-font md:justify-start"
         >
@@ -40,6 +41,7 @@ function Footer() {
               </div>
 
               <button
+                name="copy-mail"
                 type="button"
                 className="m-2 transition duration-200 ease-in-out hover:-translate-y-1"
                 onClick={handleCopy}
@@ -48,6 +50,7 @@ function Footer() {
               </button>
             </div>
             <a
+              aria-label="View linkedin"
               className="m-2 transition duration-200 ease-in-out hover:-translate-y-1"
               href="https://www.linkedin.com/in/joaquinnieva/"
               target="_blank"
@@ -56,6 +59,7 @@ function Footer() {
               <LinkedinIcon />
             </a>
             <a
+              aria-label="View github"
               className="m-2 transition duration-200 ease-in-out hover:-translate-y-1"
               href="https://github.com/joaquinnieva"
               target="_blank"

@@ -17,6 +17,7 @@ function Biography() {
           <p className="mb-8 text-xl leading-relaxed">{BIO_DESCRIPTION}</p>
           <div className="flex justify-center">
             <a
+              aria-label="Download CV"
               className="inline-flex px-6 py-2 text-lg border border-gray-500 rounded bg-primary-500/10 focus:outline-none hover:border-gray-600 hover:bg-primary-500/20"
               href={cvFile}
               download="Joaquín Nieva CV.pdf"

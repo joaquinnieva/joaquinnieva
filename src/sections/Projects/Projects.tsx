@@ -32,6 +32,7 @@ function Projects() {
         </div>
         <div className="flex justify-center w-100">
           <button
+            name="view-more"
             onClick={() => collapse(!isCollapsed)}
             className="inline-flex px-4 py-2 mt-8 text-lg text-white border border-gray-500 rounded bg-primary-700 focus:outline-none hover:border-gray-600 hover:bg-primary-800"
           >
