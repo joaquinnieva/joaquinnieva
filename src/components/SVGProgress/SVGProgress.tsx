@@ -10,7 +10,7 @@ const SVGProgess = ({
   return (
     <div className="p-2 border border-gray-700 rounded select-none lg:p-4 bg-primary-700 hover:bg-primary-500">
       <div className="flex items-center gap-1">
-        <img className="w-10" src={image} alt="skill" />
+        <img width={40} height={40} className="w-10" src={image} alt="skill" />
         <span className=""> {name} </span>
       </div>
 

@@ -8,10 +8,10 @@ function Navbar() {
   return (
     <header className="fixed top-0 z-10 w-screen text-gray-400 bg-primary-900/95 body-font backdrop-blur-xl">
       <div className="container flex flex-row flex-wrap items-center justify-between p-3 mx-auto lg:justify-center">
-        <img className="w-12" src={images.jn} alt="jn" />
+        <img className="w-12" width={48} height={48} src={images.jn} alt="jn" />
         <div className="md:hidden">
           <button
-            name="menu"
+            aria-label="menu"
             onClick={() => collapse(!isCollapse)}
             type="button"
             className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg hover:bg-primary-800"

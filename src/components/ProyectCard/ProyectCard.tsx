@@ -2,6 +2,8 @@ function ProyectCard({ proyect }: { proyect: any }) {
   return (
     <div className="h-full p-6 border border-gray-700 rounded-lg bg-primary-900 hover:bg-primary-700 bg-opacity-70">
       <img
+        width={342}
+        height={192}
         className="object-cover object-center h-auto mb-6 rounded"
         src={proyect.img}
         alt={proyect.name}

@@ -24,7 +24,13 @@ function Footer() {
           href="https://github.com/joaquinnieva"
           className="flex items-center justify-center p-3 font-medium text-white border rounded-full border-secondary/25 title-font md:justify-start"
         >
-          <img className="w-4" src={images.jn} alt="jn" />
+          <img
+            className="w-4"
+            width={16}
+            height={16}
+            src={images.jn}
+            alt="jn"
+          />
         </a>
         <p className="mt-4 text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-primary-700 sm:py-2 sm:mt-0">
           © 2022 Copyright
@@ -41,7 +47,7 @@ function Footer() {
               </div>
 
               <button
-                name="copy-mail"
+                aria-label="copy-mail"
                 type="button"
                 className="m-2 transition duration-200 ease-in-out hover:-translate-y-1"
                 onClick={handleCopy}

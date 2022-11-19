@@ -42,11 +42,15 @@ function Landing() {
         </div>
       </div>
       <img
+        width={16}
+        height={16}
         className="absolute bottom-0 hidden w-4 m-4 right-1/2 scroll md:block"
         src={images.flecha}
         alt=""
       />
       <img
+        width={16}
+        height={16}
         className="absolute bottom-0 hidden w-4 m-4 my-6 right-1/2 scroll md:block"
         src={images.flecha}
         alt=""
