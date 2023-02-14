@@ -9,25 +9,25 @@ import {
 import images from './images'
 
 export const coderProgress = [
-  { image: images.html, progress: '92', name: 'HTML' },
-  { image: images.css, progress: '95', name: 'CSS' },
-  { image: images.javascript, progress: '90', name: 'Javascript' },
-  { image: images.sass, progress: '75', name: 'Sass' },
-  { image: images.react, progress: '91', name: 'React.js' },
-  { image: images.firebase, progress: '81', name: 'Firebase' },
+  { image: images.html, progress: '95', name: 'HTML' },
+  { image: images.css, progress: '94', name: 'CSS' },
+  { image: images.javascript, progress: '97', name: 'Javascript' },
+  { image: images.sass, progress: '90', name: 'Sass' },
+  { image: images.react, progress: '97', name: 'React.js' },
+  { image: images.firebase, progress: '80', name: 'Firebase' },
   { image: images.tailwind, progress: '90', name: 'Tailwind' },
-  { image: images.bootstrap, progress: '88', name: 'Bootstrap' },
+  { image: images.bootstrap, progress: '86', name: 'Bootstrap' },
   { image: images.redux, progress: '83', name: 'Redux' },
-  { image: images.next, progress: '86', name: 'Next.js' },
-  { image: images.express, progress: '78', name: 'Express.js' },
-  { image: images.node, progress: '70', name: 'Node.js' },
-  { image: images.mongo, progress: '66', name: 'MongoDB' },
-  { image: images.mysql, progress: '60', name: 'MySQL' },
-  { image: images.angular, progress: '75', name: 'Angular' },
+  { image: images.next, progress: '89', name: 'Next.js' },
+  { image: images.express, progress: '79', name: 'Express.js' },
+  { image: images.node, progress: '73', name: 'Node.js' },
+  { image: images.mongo, progress: '67', name: 'MongoDB' },
+  { image: images.mysql, progress: '61', name: 'MySQL' },
+  { image: images.angular, progress: '79', name: 'Angular' },
 ]
 
 export const designerProgress = [
-  { image: images.figma, progress: '84', name: 'Figma' },
+  { image: images.figma, progress: '86', name: 'Figma' },
   { image: images.photoshop, progress: '70', name: 'Photoshop' },
   { image: images.illustrator, progress: '62', name: 'Illustrator' },
 ]

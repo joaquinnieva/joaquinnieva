@@ -34,6 +34,11 @@ function Navbar() {
             </Link>
           ))}
         </nav>
+        <img
+          className="w-12 invisible md:block hidden"
+          src={images.jn}
+          alt="jn"
+        />
       </div>
       <div
         className={`w-full md:hidden md:w-auto ${

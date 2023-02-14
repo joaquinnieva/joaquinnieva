@@ -26,7 +26,7 @@ function Projects() {
           }`}
         >
           {proyects.map((proyect: any, i: number) => (
-            <div key={i} className="p-4 xl:w-1/3 md:w-1/2">
+            <div key={i} className="py-3 md:p-4 xl:w-1/3 md:w-1/2">
               <ProyectCard proyect={proyect} />
             </div>
           ))}

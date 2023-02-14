@@ -26,7 +26,7 @@ function Footer() {
           <img className="w-4" src={images.jn} alt="jn" />
         </a>
         <p className="mt-4 text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-primary-700 sm:py-2 sm:mt-0">
-          © 2022 Copyright
+          © 2023 Copyright
         </p>
         <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
           <div className="flex">
