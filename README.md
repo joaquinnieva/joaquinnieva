@@ -3,7 +3,7 @@
 - 📖 Estudiante autodidacta
 - ⌨ Junior en crecimiento
 - 🔌 Amante de la tecnologia
-- 👓 Me gusta mucho saber y aprender
+- 👓 Me gusta mucho aprender y saber
 
 #
 
