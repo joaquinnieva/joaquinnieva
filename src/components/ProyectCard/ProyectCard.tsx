@@ -4,7 +4,7 @@ function ProyectCard({ proyect }: { proyect: any }) {
       <img
         width={342}
         height={192}
-        className="object-cover object-center h-auto mb-6 rounded"
+        className="object-cover object-center h-auto mx-auto mb-6 rounded"
         src={proyect.img}
         alt={proyect.name}
       />
@@ -14,24 +14,28 @@ function ProyectCard({ proyect }: { proyect: any }) {
             {proyect.name}
           </h2>
           <div className="flex gap-2">
-            <a
-              aria-label="View deploy"
-              href={proyect.link}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex px-4 py-2 text-lg text-white border border-gray-500 rounded bg-primary-700 focus:outline-none hover:border-gray-600 hover:bg-primary-800"
-            >
-              Demo
-            </a>
-            <a
-              aria-label="View repo"
-              href={proyect.repo}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex px-4 py-2 text-lg text-white border border-gray-500 rounded bg-primary-700 focus:outline-none hover:border-gray-600 hover:bg-primary-800"
-            >
-              Repo
-            </a>
+            {proyect.link && (
+              <a
+                aria-label="View deploy"
+                href={proyect.link}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex px-4 py-2 text-lg text-white border border-gray-500 rounded bg-primary-700 focus:outline-none hover:border-gray-600 hover:bg-primary-800"
+              >
+                Demo
+              </a>
+            )}
+            {proyect.repo && (
+              <a
+                aria-label="View repo"
+                href={proyect.repo}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex px-4 py-2 text-lg text-white border border-gray-500 rounded bg-primary-700 focus:outline-none hover:border-gray-600 hover:bg-primary-800"
+              >
+                Repo
+              </a>
+            )}
           </div>
         </div>
 

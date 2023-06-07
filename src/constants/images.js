@@ -1,3 +1,4 @@
+import proyecto11 from '../img/Proyecto11.png'
 import angular from '../img/angular.webp'
 import bootstrap from '../img/bootstrap.webp'
 import css from '../img/css.webp'
@@ -68,5 +69,6 @@ const images = {
   proyecto8,
   proyecto9,
   proyecto10,
+  proyecto11,
 }
 export default images
