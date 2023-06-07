@@ -2,7 +2,9 @@ function ProyectCard({ proyect }: { proyect: any }) {
   return (
     <div className="h-full px-3 py-6 border border-gray-700 rounded-lg md:p-6 bg-primary-900 hover:bg-primary-700 bg-opacity-70">
       <img
-        className="object-cover object-center h-auto mb-6 rounded"
+        width={342}
+        height={192}
+        className="object-cover object-center h-auto mx-auto mb-6 rounded"
         src={proyect.img}
         alt={proyect.name}
       />
@@ -12,24 +14,28 @@ function ProyectCard({ proyect }: { proyect: any }) {
             {proyect.name}
           </h2>
           <div className="flex gap-2">
-            <a
-              href={proyect.link}
-              target="_blank"
-              rel="noreferrer"
-              className={`inline-flex px-4 py-2 text-lg text-white border border-gray-500 rounded bg-primary-700 focus:outline-none hover:border-gray-600 hover:bg-primary-800 ${
-                proyect.link ? '' : 'hidden'
-              }`}
-            >
-              Demo
-            </a>
-            <a
-              href={proyect.repo}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex px-4 py-2 text-lg text-white border border-gray-500 rounded bg-primary-700 focus:outline-none hover:border-gray-600 hover:bg-primary-800"
-            >
-              Repo
-            </a>
+            {proyect.link && (
+              <a
+                aria-label="View deploy"
+                href={proyect.link}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex px-4 py-2 text-lg text-white border border-gray-500 rounded bg-primary-700 focus:outline-none hover:border-gray-600 hover:bg-primary-800"
+              >
+                Demo
+              </a>
+            )}
+            {proyect.repo && (
+              <a
+                aria-label="View repo"
+                href={proyect.repo}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex px-4 py-2 text-lg text-white border border-gray-500 rounded bg-primary-700 focus:outline-none hover:border-gray-600 hover:bg-primary-800"
+              >
+                Repo
+              </a>
+            )}
           </div>
         </div>
 

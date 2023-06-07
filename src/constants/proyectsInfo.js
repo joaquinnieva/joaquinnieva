@@ -7,10 +7,28 @@ const image5 = images.proyecto5;
 const image6 = images.proyecto6;
 const image7 = images.proyecto7;
 // const image8 = images.proyecto8;
-const image9 = images.proyecto9;
-const image10 = images.proyecto10;
+const image9 = images.proyecto9
+const image10 = images.proyecto10
+const image11 = images.proyecto11
 
 let proyects = [
+  {
+    id: 11,
+    name: 'Trady',
+    description:
+      'Tienda online 📄, es una app para generar tu tienda online, ideal para emprendimientos que no tienen web y quieren ademas de tener su web poder tomar pedidos desde whatsapp, el repo es privado.',
+    img: image11,
+    tecnologies: [
+      'next',
+      'typescript',
+      'tailwind',
+      'axios',
+      'mongodb',
+      'mongoose',
+      'jwt',
+    ],
+    link: 'https://my-trady.vercel.app/',
+  },
   {
     id: 9,
     name: 'Vink',
@@ -19,6 +37,7 @@ let proyects = [
     img: image9,
     tecnologies: [
       'react',
+      'typescript',
       'react-router',
       'redux-toolkit',
       'tailwind',
@@ -39,7 +58,17 @@ let proyects = [
     description:
       'Aplicación basada en PDFs de forma foro o red social📚, se puede compartir PDFs y después un admin lo ordena en una librería por categorías . (En desarrollo)',
     img: image7,
-    tecnologies: ['next', 'mysql', 'recoil', 'tailwind', 'yup', 'formik', 'axios', 'next-themes'],
+    tecnologies: [
+      'next',
+      'typescript',
+      'mysql',
+      'recoil',
+      'tailwind',
+      'yup',
+      'formik',
+      'axios',
+      'next-themes',
+    ],
     repo: 'https://github.com/joaquinnieva/library-proyect',
     link: 'https://librery-app.vercel.app',
   },
@@ -49,7 +78,16 @@ let proyects = [
     description:
       'Aplicación de envíos 📦 , SPA de envíos funcional y facil de usar, se pueden crear envíos y ver su estado ademas de editarlos. (En desarrollo)',
     img: image10,
-    tecnologies: ['angular', 'tailwind', 'node', 'express', 'postgressql', 'sequelize', 'jwt'],
+    tecnologies: [
+      'angular',
+      'typescript',
+      'tailwind',
+      'node',
+      'express',
+      'postgressql',
+      'sequelize',
+      'jwt',
+    ],
     link: 'https://apmin.vercel.app',
     repo: 'https://github.com/joaquinnieva/apmin',
   },
