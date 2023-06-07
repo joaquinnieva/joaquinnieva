@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/joaquinnieva/static/css/main.1e1b046a.css",
-    "main.js": "/joaquinnieva/static/js/main.d233c2fd.js",
+    "main.js": "/joaquinnieva/static/js/main.fb9ac129.js",
     "static/media/proyecto2.png": "/joaquinnieva/static/media/proyecto2.8517c29b4bed6f016926.png",
     "static/media/proyecto8.png": "/joaquinnieva/static/media/proyecto8.abd3ee288f41d3cf4d08.png",
     "static/media/proyecto6.png": "/joaquinnieva/static/media/proyecto6.e83c755dbb8fae069e1f.png",
@@ -12,6 +12,7 @@
     "static/media/proyecto10.png": "/joaquinnieva/static/media/proyecto10.501c857d6ce4cf13bb8e.png",
     "static/media/proyecto1.png": "/joaquinnieva/static/media/proyecto1.4b241f926970a2a30eef.png",
     "static/media/proyecto9.png": "/joaquinnieva/static/media/proyecto9.d3fc71e8cb0ea299e189.png",
+    "static/media/Proyecto11.png": "/joaquinnieva/static/media/Proyecto11.9ad3d14272207d6df1b6.png",
     "static/media/logoentero.png": "/joaquinnieva/static/media/logoentero.d5230d6bc79ae377e07d.png",
     "static/media/photoshop.png": "/joaquinnieva/static/media/photoshop.987bee358e4ff0ec0939.png",
     "static/media/illustrator.png": "/joaquinnieva/static/media/illustrator.8a26135c75c73d1f2ba0.png",
@@ -27,10 +28,10 @@
     "static/media/express.png": "/joaquinnieva/static/media/express.547c93cc2a113ad3479b.png",
     "index.html": "/joaquinnieva/index.html",
     "main.1e1b046a.css.map": "/joaquinnieva/static/css/main.1e1b046a.css.map",
-    "main.d233c2fd.js.map": "/joaquinnieva/static/js/main.d233c2fd.js.map"
+    "main.fb9ac129.js.map": "/joaquinnieva/static/js/main.fb9ac129.js.map"
   },
   "entrypoints": [
     "static/css/main.1e1b046a.css",
-    "static/js/main.d233c2fd.js"
+    "static/js/main.fb9ac129.js"
   ]
 }
