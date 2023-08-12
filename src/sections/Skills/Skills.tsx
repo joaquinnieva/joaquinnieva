@@ -9,18 +9,18 @@ function Skills() {
     <section id="skills" className="text-gray-400 body-font">
       {skillsViews.map((group: any, i: number) => (
         <div key={i}>
-          <div className="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row">
-            <div className="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
+          <div className="container flex flex-col items-center px-5 pt-24 pb-5 mx-auto md:flex-row md:items-center">
+            <div className="w-3/6 mb-10 lg:max-w-lg lg:w-2/6 md:w-1/2 md:mb-0">
               {group.icon}
             </div>
-            <div className="flex flex-col items-center justify-center w-full">
+            <div className="flex flex-col items-start justify-start w-full md:items-center md:justify-center">
               <h1 className="w-2/3 mb-4 text-3xl font-medium text-white title-font sm:text-4xl">
                 {group.title}
               </h1>
               <p className="w-2/3 text-lg leading-relaxed">{group.text}</p>
             </div>
           </div>
-          <div className="flex flex-col justify-center w-full py-10 bg-primary-900">
+          <div className="flex flex-col justify-center w-full px-5 py-10 bg-primary-900">
             <button
               className="m-auto mb-4 md:hidden"
               onClick={() => colapse(!isCollapsed)}

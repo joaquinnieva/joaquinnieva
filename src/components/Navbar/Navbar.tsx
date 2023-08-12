@@ -6,8 +6,8 @@ import navigation from '../../constants/navigation'
 function Navbar() {
   const [isCollapse, collapse] = useState(false)
   return (
-    <header className="fixed top-0 z-10 w-screen text-gray-400 bg-primary-900/95 body-font backdrop-blur-xl">
-      <div className="container flex flex-row flex-wrap items-center justify-between p-3 mx-auto lg:justify-center">
+    <header className="fixed top-0 z-10 w-screen text-gray-400 bg-primary-900/90 body-font backdrop-blur-xl">
+      <div className="container flex flex-row flex-wrap items-center justify-between p-3 mx-auto lg:justify-between">
         <img className="w-12" src={images.jn} alt="jn" />
         <div className="md:hidden">
           <button
@@ -19,7 +19,7 @@ function Navbar() {
           </button>
         </div>
 
-        <nav className="flex-wrap items-center justify-center hidden text-base md:flex md:ml-auto md:mr-auto">
+        <nav className="flex-wrap items-center justify-center hidden text-base md:flex">
           {navigation.map((link: any, i: number) => (
             <Link
               key={i}
@@ -34,11 +34,6 @@ function Navbar() {
             </Link>
           ))}
         </nav>
-        <img
-          className="w-12 invisible md:block hidden"
-          src={images.jn}
-          alt="jn"
-        />
       </div>
       <div
         className={`w-full md:hidden md:w-auto ${

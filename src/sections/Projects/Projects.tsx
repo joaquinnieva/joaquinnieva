@@ -21,12 +21,12 @@ function Projects() {
           </p>
         </div>
         <div
-          className={`flex flex-wrap -m-4 overflow-hidden relative pb-12  ${
+          className={`grid lg:grid-cols-3 grid-cols-1 w-full gap-8 mx-auto overflow-hidden relative pb-12  ${
             isCollapsed ? 'h-proyects' : `h-100`
           }`}
         >
           {proyects.map((proyect: any, i: number) => (
-            <div key={i} className="py-3 md:p-4 xl:w-1/3 md:w-1/2">
+            <div key={i} className="w-full">
               <ProyectCard proyect={proyect} />
             </div>
           ))}
