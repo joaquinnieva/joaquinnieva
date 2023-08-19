@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/joaquinnieva/static/css/main.ac7cd90a.css",
-    "main.js": "/joaquinnieva/static/js/main.64846ad8.js",
-    "static/media/proyecto2.png": "/joaquinnieva/static/media/proyecto2.8517c29b4bed6f016926.png",
-    "static/media/proyecto8.png": "/joaquinnieva/static/media/proyecto8.abd3ee288f41d3cf4d08.png",
-    "static/media/proyecto6.png": "/joaquinnieva/static/media/proyecto6.e83c755dbb8fae069e1f.png",
+    "main.css": "/joaquinnieva/static/css/main.72abadb6.css",
+    "main.js": "/joaquinnieva/static/js/main.6cb20e37.js",
+    "static/media/hiro.png": "/joaquinnieva/static/media/hiro.173bc809a86227609e2e.png",
+    "static/media/alkemy.png": "/joaquinnieva/static/media/alkemy.0592812a866787015ce8.png",
+    "static/media/techfix.png": "/joaquinnieva/static/media/techfix.5bd8645630ce756a3180.png",
+    "static/media/done.png": "/joaquinnieva/static/media/done.fb431cdc959a62655c22.png",
+    "static/media/vink.png": "/joaquinnieva/static/media/vink.e8ea4b7ab80fb7f0d8ea.png",
+    "static/media/ecommerce.png": "/joaquinnieva/static/media/ecommerce.906f7b0d97f950b496ca.png",
+    "static/media/trady.png": "/joaquinnieva/static/media/trady.da01bb40d07ea1913974.png",
+    "static/media/apmin.png": "/joaquinnieva/static/media/apmin.5441dd02abf91ad53314.png",
+    "static/media/myportfolio.png": "/joaquinnieva/static/media/myportfolio.3e57f1ed08b78430c2da.png",
     "static/media/coder.svg": "/joaquinnieva/static/media/coder.3139a5d42a57c7446aa93f1ade30b73b.svg",
+    "static/media/librery.png": "/joaquinnieva/static/media/librery.78a4f912e05a518a9cec.png",
     "static/media/trama.png": "/joaquinnieva/static/media/trama.d02900c8409a24726107.png",
-    "static/media/proyecto7.png": "/joaquinnieva/static/media/proyecto7.d0c6dc7eaa60d88fcc3f.png",
-    "static/media/proyecto4.png": "/joaquinnieva/static/media/proyecto4.bd3f98a56300d1c11e52.png",
-    "static/media/proyecto10.png": "/joaquinnieva/static/media/proyecto10.501c857d6ce4cf13bb8e.png",
-    "static/media/proyecto1.png": "/joaquinnieva/static/media/proyecto1.4b241f926970a2a30eef.png",
-    "static/media/proyecto9.png": "/joaquinnieva/static/media/proyecto9.d3fc71e8cb0ea299e189.png",
-    "static/media/Proyecto11.png": "/joaquinnieva/static/media/Proyecto11.9ad3d14272207d6df1b6.png",
     "static/media/logoentero.png": "/joaquinnieva/static/media/logoentero.d5230d6bc79ae377e07d.png",
     "static/media/photoshop.png": "/joaquinnieva/static/media/photoshop.987bee358e4ff0ec0939.png",
     "static/media/illustrator.png": "/joaquinnieva/static/media/illustrator.8a26135c75c73d1f2ba0.png",
-    "static/media/proyecto5.png": "/joaquinnieva/static/media/proyecto5.c70fe8e1ecaf1a0f58e2.png",
     "static/media/JoaquínNievaCV.pdf": "/joaquinnieva/static/media/JoaquínNievaCV.df6fe547555f3a8f94d2.pdf",
-    "static/media/proyecto3.png": "/joaquinnieva/static/media/proyecto3.4a56f375343c0f4450f8.png",
     "static/media/wordpress.png": "/joaquinnieva/static/media/wordpress.359c6b97fb5066f831ed.png",
     "static/media/tailwind.png": "/joaquinnieva/static/media/tailwind.090ed0e9d927f089fe3c.png",
     "static/media/gmail.png": "/joaquinnieva/static/media/gmail.dcaf22a5fb2cfdf1dbdc.png",
@@ -27,11 +26,11 @@
     "static/media/php.png": "/joaquinnieva/static/media/php.a5e263693cd011b64e7e.png",
     "static/media/express.png": "/joaquinnieva/static/media/express.547c93cc2a113ad3479b.png",
     "index.html": "/joaquinnieva/index.html",
-    "main.ac7cd90a.css.map": "/joaquinnieva/static/css/main.ac7cd90a.css.map",
-    "main.64846ad8.js.map": "/joaquinnieva/static/js/main.64846ad8.js.map"
+    "main.72abadb6.css.map": "/joaquinnieva/static/css/main.72abadb6.css.map",
+    "main.6cb20e37.js.map": "/joaquinnieva/static/js/main.6cb20e37.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac7cd90a.css",
-    "static/js/main.64846ad8.js"
+    "static/css/main.72abadb6.css",
+    "static/js/main.6cb20e37.js"
   ]
 }
