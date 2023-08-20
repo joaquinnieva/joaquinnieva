@@ -1,13 +1,15 @@
 function ProyectCard({ proyect }: { proyect: any }) {
   return (
     <div className="h-full px-3 py-6 border border-gray-700 rounded-lg md:p-6 bg-primary-900 hover:bg-primary-700 bg-opacity-70">
-      <img
-        width={342}
-        height={192}
-        className="object-cover object-center h-auto mx-auto mb-6 rounded"
-        src={proyect.img}
-        alt={proyect.name}
-      />
+      <div className="relative overflow-hidden rounded-md mb-6">
+        <img
+          width={1920}
+          height={1080}
+          className="object-cover object-center h-auto mx-auto rounded scale-[1.01] hover:scale-[1.18] ease-in-out transition-all"
+          src={proyect.img}
+          alt={proyect.name}
+        />
+      </div>
       <div className="">
         <div className="flex items-center justify-between w-full mb-3">
           <h2 className="text-lg font-medium text-white title-font">

@@ -1,15 +1,17 @@
 import images from './images'
-const image1 = images.proyecto1
-const image2 = images.proyecto2
-const image3 = images.proyecto3
-const image4 = images.proyecto4
-const image5 = images.proyecto5
-const image6 = images.proyecto6
-const image7 = images.proyecto7
-// const image8 = images.proyecto8;
-const image9 = images.proyecto9
-const image10 = images.proyecto10
-const image11 = images.proyecto11
+
+const {
+  trady,
+  vink,
+  librery,
+  apmin,
+  alkemy,
+  done,
+  ecommerce,
+  techfix,
+  myportfolio,
+  hiro,
+} = images
 
 let proyects = [
   {
@@ -17,7 +19,7 @@ let proyects = [
     name: 'Trady',
     description:
       'Tienda online 📊, es una app para generar tu tienda online, ideal para emprendimientos que no tienen web y quieren ademas de tener su web poder tomar pedidos desde whatsapp, el repo es privado.',
-    img: image11,
+    img: trady,
     tecnologies: [
       'next',
       'typescript',
@@ -34,7 +36,7 @@ let proyects = [
     name: 'Vink',
     description:
       'Perfil personalizado 📄, una app para generar un sitio web donde muestras tu perfil y también tus links centralizados, puedes crear y compartir tu perfil con los links y tu descripción, además puedes personalizarlo a tu gusto. Desarrollado con el stack MERN.',
-    img: image9,
+    img: vink,
     tecnologies: [
       'react',
       'typescript',
@@ -57,7 +59,7 @@ let proyects = [
     name: 'Librery',
     description:
       'Aplicación basada en PDFs de forma foro o red social📚, se puede compartir PDFs y después un admin lo ordena en una librería por categorías . (En desarrollo)',
-    img: image7,
+    img: librery,
     tecnologies: [
       'next',
       'typescript',
@@ -77,7 +79,7 @@ let proyects = [
     name: 'apmin',
     description:
       'Aplicación de envíos 📦 , SPA de envíos funcional y facil de usar, se pueden crear envíos y ver su estado ademas de editarlos. (En desarrollo)',
-    img: image10,
+    img: apmin,
     tecnologies: [
       'angular',
       'typescript',
@@ -96,7 +98,7 @@ let proyects = [
     name: 'ecommerce',
     description:
       'Página comercial 🛒 , parte frontend de un e-commerce SPA que tiene slider y carrito de compras, usando una API (fakestoreapi) para llamar a los productos.',
-    img: image2,
+    img: ecommerce,
     tecnologies: [
       'react',
       'react-router',
@@ -114,7 +116,7 @@ let proyects = [
     name: 'Tech Fix',
     description:
       'Web informativa 💻 , una página estática para desplegar información de una marca dedicada a servicios.',
-    img: image4,
+    img: techfix,
     tecnologies: ['react', 'css'],
     link: 'https://joaquinnieva.github.io/techfix/',
     repo: 'https://github.com/joaquinnieva/techfix',
@@ -124,7 +126,7 @@ let proyects = [
     name: 'Done',
     description:
       'Done📑 es una app de tareas, un CRUD básico donde manejo el estado global para la creación y eliminación de tareas.',
-    img: image3,
+    img: done,
     tecnologies: ['react', 'redux', 'css'],
     link: 'https://joaquinnieva.github.io/done-proyect/',
     repo: 'https://github.com/joaquinnieva/done-proyect',
@@ -134,7 +136,7 @@ let proyects = [
     name: 'Challenge Alkemy',
     description:
       'SPA de heroes 🐱‍🏍. Utilizo una API (superheroapi) externa para poder llamar a los heroes, tiene un login para poder ingresar, y se puede armar un equipo de 6, validando que 3 sean buenos y 3 sean malos.     (solo inicia con datos puestos)',
-    img: image5,
+    img: hiro,
     tecnologies: [
       'react',
       'react-router',
@@ -170,7 +172,7 @@ let proyects = [
         .
       </p>
     ),
-    img: image6,
+    img: alkemy,
     tecnologies: [
       'react',
       'react-router',
@@ -186,7 +188,7 @@ let proyects = [
     name: 'Portafolio',
     description:
       'Es este mismo proyecto 👜 , donde puedo recopilar información sobre mí y mostrar lo que hago.',
-    img: image1,
+    img: myportfolio,
     tecnologies: ['react', 'css', 'aos'],
     link: 'https://joaquinnieva.github.io/joaquinnieva/',
     repo: 'https://github.com/joaquinnieva/joaquinnieva',
