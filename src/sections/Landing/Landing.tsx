@@ -10,7 +10,10 @@ import images from '../../constants/images'
 
 function Landing() {
   return (
-    <section id="home" className="h-screen pt-20 text-gray-400 body-font">
+    <section
+      id="home"
+      className="h-screen pt-20 text-gray-400 body-font flex items-center justify-center"
+    >
       <div className="container flex flex-col-reverse items-center justify-between px-5 py-8 mx-auto lg:py-24 md:flex-row">
         <div className="flex flex-col my-12 text-center ">
           <h1 className="text-2xl font-medium text-white text-start title-font sm:text-2xl">
