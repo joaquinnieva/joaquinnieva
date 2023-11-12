@@ -1,10 +1,7 @@
 import IconCoder from '../components/IconCoder/IconCoder'
-import IconDesigner from '../components/IconDesigner/IconDesigner'
 import {
   CODER_DESCRIPTION,
-  CODER_TITLE,
-  DESIGNER_DESCRIPTION,
-  DESIGNER_TITLE
+  CODER_TITLE
 } from './constants'
 import images from './images'
 
@@ -39,10 +36,10 @@ export const skillsViews = [
     text: CODER_DESCRIPTION,
     skills: coderProgress,
   },
-  {
-    icon: <IconDesigner />,
-    title: DESIGNER_TITLE,
-    text: DESIGNER_DESCRIPTION,
-    skills: designerProgress,
-  },
+  // {
+  //   icon: <IconDesigner />,
+  //   title: DESIGNER_TITLE,
+  //   text: DESIGNER_DESCRIPTION,
+  //   skills: designerProgress,
+  // },
 ]

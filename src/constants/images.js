@@ -1,7 +1,9 @@
 import alkemy from '../img/alkemy.webp'
+import alkemy_logo from '../img/alkemy_logo.jpg'
 import angular from '../img/angular.png'
 import apmin from '../img/apmin.webp'
 import bootstrap from '../img/bootstrap.png'
+import boxcustodia_logo from '../img/boxcustodia.jpg'
 import coder from '../img/coder.svg'
 import css from '../img/css.png'
 import done from '../img/done.webp'
@@ -39,6 +41,8 @@ import vink from '../img/vink.webp'
 import wordpress from '../img/wordpress.png'
 
 const images = {
+  alkemy_logo,
+  boxcustodia_logo,
   trady,
   myportfolio,
   techfix,

@@ -12,7 +12,7 @@ function Landing() {
   return (
     <section
       id="home"
-      className="h-screen pt-20 text-gray-400 body-font flex items-center justify-center"
+      className="flex items-center justify-center h-screen pt-20 text-gray-400 body-font"
     >
       <div className="container flex flex-col-reverse items-center justify-between px-5 py-8 mx-auto lg:py-24 md:flex-row">
         <div className="flex flex-col my-12 text-center ">
@@ -27,7 +27,7 @@ function Landing() {
             <Link
               className="inline-flex px-6 py-2 text-lg text-white border border-gray-500 rounded cursor-pointer hover:border-gray-600 bg-primary-700 focus:outline-none hover:bg-primary-800"
               activeClass="active"
-              to="skills"
+              to="about"
               spy={true}
               smooth={true}
               offset={50}

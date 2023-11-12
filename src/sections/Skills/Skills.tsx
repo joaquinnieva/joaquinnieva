@@ -10,14 +10,14 @@ function Skills() {
       {skillsViews.map((group: any, i: number) => (
         <div key={i}>
           <div className="container flex flex-col items-center px-5 pt-24 pb-5 mx-auto md:flex-row md:items-center">
-            <div className="w-3/6 mb-10 lg:max-w-lg lg:w-2/6 md:w-1/2 md:mb-0">
-              {group.icon}
-            </div>
-            <div className="flex flex-col items-start justify-start w-full md:items-center md:justify-center">
+            <div className="flex flex-col items-start justify-start w-full md:justify-center">
               <h1 className="w-2/3 mb-4 text-3xl font-medium text-white title-font sm:text-4xl">
                 {group.title}
               </h1>
               <p className="w-2/3 text-lg leading-relaxed">{group.text}</p>
+            </div>
+            <div className="w-3/6 mb-10 lg:max-w-lg lg:w-2/6 md:w-1/2 md:mb-0">
+              {group.icon}
             </div>
           </div>
           <div className="flex flex-col justify-center w-full px-5 py-10 bg-primary-900">

@@ -13,11 +13,12 @@ function Projects() {
               Proyectos
             </h1>
           </div>
-          <p className="w-full leading-relaxed text-opacity-90">
+          <p className="w-full text-lg leading-relaxed text-opacity-90">
             Este es mi portfolio de proyectos personales, algunos son simples,
             de solo desarrollo fontend con los que fui aprendiendo y otros con
             mas complejidad donde fui practicando, empleando backend con algunas
-            tecnologias con las que me capacité.
+            tecnologias con las que me capacité. También fuí colaborador de
+            otros proyectos pero no tengo permiso de mostrarlos.
           </p>
         </div>
         <div
