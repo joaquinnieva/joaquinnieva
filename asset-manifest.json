@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joaquinnieva/static/css/main.72abadb6.css",
-    "main.js": "/joaquinnieva/static/js/main.336d750c.js",
+    "main.css": "/joaquinnieva/static/css/main.ca7d2ec2.css",
+    "main.js": "/joaquinnieva/static/js/main.8e4f5ac6.js",
     "static/media/coder.svg": "/joaquinnieva/static/media/coder.3139a5d42a57c7446aa93f1ade30b73b.svg",
     "static/media/trama.png": "/joaquinnieva/static/media/trama.d02900c8409a24726107.png",
     "static/media/JoaquínNievaCV.pdf": "/joaquinnieva/static/media/JoaquínNievaCV.7472f3694b9b09e25b66.pdf",
@@ -26,11 +26,11 @@
     "static/media/techfix.webp": "/joaquinnieva/static/media/techfix.e87100faa76b8397ec89.webp",
     "static/media/done.webp": "/joaquinnieva/static/media/done.dceea15d844746666c87.webp",
     "index.html": "/joaquinnieva/index.html",
-    "main.72abadb6.css.map": "/joaquinnieva/static/css/main.72abadb6.css.map",
-    "main.336d750c.js.map": "/joaquinnieva/static/js/main.336d750c.js.map"
+    "main.ca7d2ec2.css.map": "/joaquinnieva/static/css/main.ca7d2ec2.css.map",
+    "main.8e4f5ac6.js.map": "/joaquinnieva/static/js/main.8e4f5ac6.js.map"
   },
   "entrypoints": [
-    "static/css/main.72abadb6.css",
-    "static/js/main.336d750c.js"
+    "static/css/main.ca7d2ec2.css",
+    "static/js/main.8e4f5ac6.js"
   ]
 }
